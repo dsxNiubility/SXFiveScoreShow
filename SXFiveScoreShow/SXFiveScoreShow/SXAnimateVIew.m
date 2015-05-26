@@ -31,19 +31,19 @@
     float x1,y1,x2,y2,x3,y3,x4,y4,x5,y5;
     
     x1 = 100.25;
-    y1 = 100-100* (self.subScore1/5.0);
+    y1 = 100 - 100 * (self.subScore1 / 5.0);
     
-    x2 = 100.25-(100.25 - 4.75)*(self.subScore2/5.0);
-    y2 = 100 - (100-69)*(self.subScore2/5.0);
+    x2 = 100.25 - (100.25 - 4.75) * (self.subScore2 / 5.0);
+    y2 = 100 - (100-69) * (self.subScore2 / 5.0);
     
-    x3 = 100.25-(100.25 - 41.25)*(self.subScore3/5.0);
-    y3 = 100+(180.5-100)*(self.subScore3/5.0);
+    x3 = 100.25 - (100.25 - 41.25) * (self.subScore3 / 5.0);
+    y3 = 100 + (180.5 - 100) * (self.subScore3 / 5.0);
     
-    x4 = 100.25+(158.25 - 100.25)*(self.subScore4/5.0);
-    y4 = 100+(180.5 - 100)*(self.subScore4/5.0);
+    x4 = 100.25 + (158.25 - 100.25) * (self.subScore4 / 5.0);
+    y4 = 100 + (180.5 - 100) * (self.subScore4 / 5.0);
     
-    x5 = 100.25+(194.75 - 100.25)*(self.subScore5/5.0);
-    y5 = 100-(100-69)*(self.subScore5/5.0);
+    x5 = 100.25 + (194.75 - 100.25) * (self.subScore5 / 5.0);
+    y5 = 100 - (100 - 69) * (self.subScore5 / 5.0);
     
     
     
@@ -59,11 +59,11 @@
     CGContextAddLineToPoint(ctx, x1, y1);
     
     
-    CGContextSetLineWidth(ctx, 10); // 宽度
-    CGContextSetLineCap(ctx, kCGLineCapRound); // 头尾样式
-    CGContextSetLineJoin(ctx, kCGLineJoinRound); // 转折点样式
-    CGContextSetRGBFillColor(ctx, 1, 0, 0, 1); // 颜色
-    CGContextFillPath(ctx); // 渲染
+    CGContextSetLineWidth(ctx, 10);
+    CGContextSetLineCap(ctx, kCGLineCapRound);
+    CGContextSetLineJoin(ctx, kCGLineJoinRound);
+    CGContextSetRGBFillColor(ctx, 1, 0, 0, 0.5);
+    CGContextFillPath(ctx);
 }
 
 
