@@ -16,18 +16,18 @@
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
     //-----------------------------------------画线段
-    CGContextMoveToPoint(ctx, 100, 0);
-    CGContextAddLineToPoint(ctx, 0, 67);
-    CGContextAddLineToPoint(ctx, 27.5, 200);
-    CGContextAddLineToPoint(ctx, 172.5, 200);
-    CGContextAddLineToPoint(ctx, 200, 67);
-    CGContextAddLineToPoint(ctx, 100, 0);
+    CGContextMoveToPoint(ctx, 100.25, 0);
+    CGContextAddLineToPoint(ctx, 4.75, 69);
+    CGContextAddLineToPoint(ctx, 41.25, 180.5);
+    CGContextAddLineToPoint(ctx, 158.25, 180.5);
+    CGContextAddLineToPoint(ctx, 194.25, 69);
+    CGContextAddLineToPoint(ctx, 100.25, 0);
     
     
     CGContextSetLineWidth(ctx, 10); // 宽度
     CGContextSetLineCap(ctx, kCGLineCapRound); // 头尾样式
     CGContextSetLineJoin(ctx, kCGLineJoinRound); // 转折点样式
-    CGContextSetRGBStrokeColor(ctx, 1, 0, 0, 1); // 颜色
+    CGContextSetRGBFillColor(ctx, 1, 0, 0, 1); // 颜色
     CGContextFillPath(ctx); // 渲染
 }
 
