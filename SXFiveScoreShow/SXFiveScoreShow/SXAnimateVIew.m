@@ -17,10 +17,10 @@
     
     //-----------------------------------------画线段
     CGContextMoveToPoint(ctx, 100, 0);
-    CGContextAddLineToPoint(ctx, 0, 70);
-    CGContextAddLineToPoint(ctx, 60, 200);
-    CGContextAddLineToPoint(ctx, 140, 200);
-    CGContextAddLineToPoint(ctx, 200, 70);
+    CGContextAddLineToPoint(ctx, 0, 67);
+    CGContextAddLineToPoint(ctx, 27.5, 200);
+    CGContextAddLineToPoint(ctx, 172.5, 200);
+    CGContextAddLineToPoint(ctx, 200, 67);
     CGContextAddLineToPoint(ctx, 100, 0);
     
     
