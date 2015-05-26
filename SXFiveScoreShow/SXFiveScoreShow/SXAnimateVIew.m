@@ -10,12 +10,26 @@
 
 @implementation SXAnimateVIew
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+
+
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    //-----------------------------------------画线段
+    CGContextMoveToPoint(ctx, 100, 0);
+    CGContextAddLineToPoint(ctx, 0, 70);
+    CGContextAddLineToPoint(ctx, 60, 200);
+    CGContextAddLineToPoint(ctx, 140, 200);
+    CGContextAddLineToPoint(ctx, 200, 70);
+    CGContextAddLineToPoint(ctx, 100, 0);
+    
+    
+    CGContextSetLineWidth(ctx, 10); // 宽度
+    CGContextSetLineCap(ctx, kCGLineCapRound); // 头尾样式
+    CGContextSetLineJoin(ctx, kCGLineJoinRound); // 转折点样式
+    CGContextSetRGBStrokeColor(ctx, 1, 0, 0, 1); // 颜色
+    CGContextFillPath(ctx); // 渲染
 }
-*/
+
 
 @end

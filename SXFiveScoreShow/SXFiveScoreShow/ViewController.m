@@ -19,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.animateView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+    
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [UIView animateWithDuration:2.0 animations:^{
+        self.animateView.transform = CGAffineTransformIdentity;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
