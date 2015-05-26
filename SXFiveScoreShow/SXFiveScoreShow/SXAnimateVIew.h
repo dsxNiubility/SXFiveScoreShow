@@ -10,4 +10,11 @@
 
 @interface SXAnimateVIew : UIView
 
+@property(nonatomic,assign)CGFloat subScore1;
+@property(nonatomic,assign)CGFloat subScore2;
+@property(nonatomic,assign)CGFloat subScore3;
+@property(nonatomic,assign)CGFloat subScore4;
+@property(nonatomic,assign)CGFloat subScore5;
+
+
 @end
