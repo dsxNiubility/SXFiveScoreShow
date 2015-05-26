@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "SXAnimateVIew.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
 
 @end
 

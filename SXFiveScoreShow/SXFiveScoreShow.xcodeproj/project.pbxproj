@@ -14,6 +14,7 @@
 		1D5466ED1B141A24007B700D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EC1B141A24007B700D /* Images.xcassets */; };
 		1D5466F01B141A24007B700D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EE1B141A24007B700D /* LaunchScreen.xib */; };
 		1D5466FC1B141A25007B700D /* SXFiveScoreShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466FB1B141A25007B700D /* SXFiveScoreShowTests.m */; };
+		1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5467061B141DBF007B700D /* SXAnimateVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1D5466F51B141A25007B700D /* SXFiveScoreShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXFiveScoreShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5466FA1B141A25007B700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5466FB1B141A25007B700D /* SXFiveScoreShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXFiveScoreShowTests.m; sourceTree = "<group>"; };
+		1D5467051B141DBF007B700D /* SXAnimateVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAnimateVIew.h; sourceTree = "<group>"; };
+		1D5467061B141DBF007B700D /* SXAnimateVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAnimateVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1D5466E41B141A24007B700D /* AppDelegate.m */,
 				1D5466E61B141A24007B700D /* ViewController.h */,
 				1D5466E71B141A24007B700D /* ViewController.m */,
+				1D5467051B141DBF007B700D /* SXAnimateVIew.h */,
+				1D5467061B141DBF007B700D /* SXAnimateVIew.m */,
 				1D5466E91B141A24007B700D /* Main.storyboard */,
 				1D5466EC1B141A24007B700D /* Images.xcassets */,
 				1D5466EE1B141A24007B700D /* LaunchScreen.xib */,
@@ -163,6 +168,7 @@
 		1D5466D41B141A24007B700D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SX;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Sankuai;
 				TargetAttributes = {
@@ -222,6 +228,7 @@
 				1D5466E81B141A24007B700D /* ViewController.m in Sources */,
 				1D5466E51B141A24007B700D /* AppDelegate.m in Sources */,
 				1D5466E21B141A24007B700D /* main.m in Sources */,
+				1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +425,7 @@
 				1D5467011B141A25007B700D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D5467021B141A25007B700D /* Build configuration list for PBXNativeTarget "SXFiveScoreShowTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +434,7 @@
 				1D5467041B141A25007B700D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
