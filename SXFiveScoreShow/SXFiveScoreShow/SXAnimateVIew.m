@@ -26,11 +26,37 @@
     self.subScore3 = 4.7-(5.0-baseNum);
     self.subScore4 = 3.8-(5.0-baseNum);
     self.subScore5 = 4.7-(5.0-baseNum);
+    
 }
 
 - (void)drawRect:(CGRect)rect {
     
+    float subScore1,subScore2,subScore3,subScore4,subScore5;
     float x1,y1,x2,y2,x3,y3,x4,y4,x5,y5;
+    
+    // ------之所以再做一次传值，可能是因为设置的权值并不是5.0，但是做处理又不想改到原来的值
+    subScore1 = self.subScore1;
+    subScore2 = self.subScore2;
+    subScore3 = self.subScore3;
+    subScore4 = self.subScore4;
+    subScore5 = self.subScore5;
+    
+    // ------再做一次处理，假如分数低于2.5那就算是没分了 不显示该片段了。
+    if (subScore1 < (5.0-baseNum)) {
+        subScore1 = (5.0-baseNum);
+    }
+    if (subScore2 < (5.0-baseNum)) {
+        subScore2 = (5.0-baseNum);
+    }
+    if (subScore3 < (5.0-baseNum)) {
+        subScore3 = (5.0-baseNum);
+    }
+    if (subScore4 < (5.0-baseNum)) {
+        subScore4 = (5.0-baseNum);
+    }
+    if (subScore5 < (5.0-baseNum)) {
+        subScore5 = (5.0-baseNum);
+    }
     
     x1 = 100.25;
     y1 = 100 - 100 * (self.subScore1 / baseNum);
