@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SXFiveScoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgfive" translatesAutoresizingMaskIntoConstraints="NO" id="Fb3-4b-AY5">
+                        <rect key="frame" x="60" y="25" width="200" height="200"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5y-bO-nG1" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                        <rect key="frame" x="60" y="25" width="200" height="200"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0Q-2A-39C" customClass="SXAnimateVIew">
+                        <rect key="frame" x="60" y="25" width="200" height="200"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="3Ax-sU-Gip"/>
+                            <constraint firstAttribute="width" constant="200" id="gSd-Wn-4p8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="J5y-bO-nG1" firstAttribute="height" secondItem="Fb3-4b-AY5" secondAttribute="height" id="11c-RP-8tG"/>
+                    <constraint firstAttribute="centerY" secondItem="Fb3-4b-AY5" secondAttribute="centerY" id="D8o-xl-h9y"/>
+                    <constraint firstItem="i0Q-2A-39C" firstAttribute="height" secondItem="Fb3-4b-AY5" secondAttribute="height" id="UyU-vt-70p"/>
+                    <constraint firstItem="J5y-bO-nG1" firstAttribute="centerX" secondItem="Fb3-4b-AY5" secondAttribute="centerX" id="bgO-HE-FBQ"/>
+                    <constraint firstAttribute="centerX" secondItem="Fb3-4b-AY5" secondAttribute="centerX" id="foR-yh-9L6"/>
+                    <constraint firstItem="i0Q-2A-39C" firstAttribute="width" secondItem="Fb3-4b-AY5" secondAttribute="width" id="iAa-lC-GGU"/>
+                    <constraint firstItem="J5y-bO-nG1" firstAttribute="width" secondItem="Fb3-4b-AY5" secondAttribute="width" id="lCi-Ov-P19"/>
+                    <constraint firstItem="J5y-bO-nG1" firstAttribute="centerY" secondItem="Fb3-4b-AY5" secondAttribute="centerY" id="tcd-8c-UmB"/>
+                    <constraint firstItem="i0Q-2A-39C" firstAttribute="centerX" secondItem="Fb3-4b-AY5" secondAttribute="centerX" id="urY-u6-mYU"/>
+                    <constraint firstItem="i0Q-2A-39C" firstAttribute="centerY" secondItem="Fb3-4b-AY5" secondAttribute="centerY" id="yJa-sN-LgS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="318" y="292"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bgfive" width="200" height="200"/>
+    </resources>
+</document>
