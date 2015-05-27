@@ -8,6 +8,8 @@
 
 #import "SXAnimateVIew.h"
 
+#define baseNum 2.5
+
 @implementation SXAnimateVIew
 
 //CGContextMoveToPoint(ctx, 100.25, 0);
@@ -19,11 +21,11 @@
 
 - (void)awakeFromNib
 {
-    self.subScore1 = 4.9;
-    self.subScore2 = 4.5;
-    self.subScore3 = 4.7;
-    self.subScore4 = 3.5;
-    self.subScore5 = 4.7;
+    self.subScore1 = 4.9-(5.0-baseNum);
+    self.subScore2 = 4.5-(5.0-baseNum);
+    self.subScore3 = 4.7-(5.0-baseNum);
+    self.subScore4 = 3.8-(5.0-baseNum);
+    self.subScore5 = 4.7-(5.0-baseNum);
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -31,19 +33,19 @@
     float x1,y1,x2,y2,x3,y3,x4,y4,x5,y5;
     
     x1 = 100.25;
-    y1 = 100 - 100 * (self.subScore1 / 5.0);
+    y1 = 100 - 100 * (self.subScore1 / baseNum);
     
-    x2 = 100.25 - (100.25 - 4.75) * (self.subScore2 / 5.0);
-    y2 = 100 - (100-69) * (self.subScore2 / 5.0);
+    x2 = 100.25 - (100.25 - 4.75) * (self.subScore2 / baseNum);
+    y2 = 100 - (100-69) * (self.subScore2 / baseNum);
     
-    x3 = 100.25 - (100.25 - 41.25) * (self.subScore3 / 5.0);
-    y3 = 100 + (180.5 - 100) * (self.subScore3 / 5.0);
+    x3 = 100.25 - (100.25 - 41.25) * (self.subScore3 / baseNum);
+    y3 = 100 + (180.5 - 100) * (self.subScore3 / baseNum);
     
-    x4 = 100.25 + (158.25 - 100.25) * (self.subScore4 / 5.0);
-    y4 = 100 + (180.5 - 100) * (self.subScore4 / 5.0);
+    x4 = 100.25 + (158.25 - 100.25) * (self.subScore4 / baseNum);
+    y4 = 100 + (180.5 - 100) * (self.subScore4 / baseNum);
     
-    x5 = 100.25 + (194.75 - 100.25) * (self.subScore5 / 5.0);
-    y5 = 100 - (100 - 69) * (self.subScore5 / 5.0);
+    x5 = 100.25 + (194.75 - 100.25) * (self.subScore5 / baseNum);
+    y5 = 100 - (100 - 69) * (self.subScore5 / baseNum);
     
     
     
