@@ -12,6 +12,8 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
 
+@property(nonatomic,assign,getter=isBig)BOOL big;
+
 @end
 
 @implementation ViewController
@@ -19,15 +21,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.animateView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+    self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
+    
+    self.big = NO;
     
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [UIView animateWithDuration:2.0 animations:^{
-        self.animateView.transform = CGAffineTransformIdentity;
-    }];
+    if (self.big == NO) {
+        [UIView animateWithDuration:2.0 animations:^{
+            self.animateView.transform = CGAffineTransformIdentity;
+        }];
+    }else{
+        [UIView animateWithDuration:2.0 animations:^{
+            self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
+        }];
+    }
+    self.big = !self.isBig;
 }
 
 - (void)didReceiveMemoryWarning {
