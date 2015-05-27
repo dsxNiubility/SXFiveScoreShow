@@ -19,6 +19,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgfive" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
                                 <rect key="frame" x="87" y="234" width="200" height="200"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                                <rect key="frame" x="87" y="234" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6W-QD-A50" customClass="SXAnimateVIew">
                                 <rect key="frame" x="87" y="234" width="200" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -32,8 +36,12 @@
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="C6W-QD-A50" secondAttribute="centerX" id="0dc-1Q-Fpw"/>
                             <constraint firstItem="C6W-QD-A50" firstAttribute="centerY" secondItem="9yz-4a-6gb" secondAttribute="centerY" id="3TO-Ji-zNl"/>
+                            <constraint firstItem="u6i-TW-FeM" firstAttribute="centerX" secondItem="9yz-4a-6gb" secondAttribute="centerX" id="FIB-ye-owd"/>
                             <constraint firstAttribute="centerY" secondItem="C6W-QD-A50" secondAttribute="centerY" id="Gep-Lc-SII"/>
                             <constraint firstItem="C6W-QD-A50" firstAttribute="width" secondItem="9yz-4a-6gb" secondAttribute="width" id="KcG-u5-XNq"/>
+                            <constraint firstItem="u6i-TW-FeM" firstAttribute="width" secondItem="9yz-4a-6gb" secondAttribute="width" id="Lpw-L7-VwM"/>
+                            <constraint firstItem="u6i-TW-FeM" firstAttribute="centerY" secondItem="9yz-4a-6gb" secondAttribute="centerY" id="TRd-vH-B09"/>
+                            <constraint firstItem="u6i-TW-FeM" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="UgU-6p-ltM"/>
                             <constraint firstItem="C6W-QD-A50" firstAttribute="centerX" secondItem="9yz-4a-6gb" secondAttribute="centerX" id="ntD-av-Fru"/>
                             <constraint firstItem="C6W-QD-A50" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="uu1-QC-HIo"/>
                         </constraints>

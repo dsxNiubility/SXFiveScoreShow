@@ -1,32 +1,24 @@
 //
-//  SXAnimateVIew.m
+//  SXBgView.m
 //  SXFiveScoreShow
 //
-//  Created by dongshangxian on 15/5/26.
+//  Created by dongshangxian on 15/5/27.
 //  Copyright (c) 2015年 Sankuai. All rights reserved.
 //
 
-#import "SXAnimateVIew.h"
+#import "SXBgView.h"
 
 // ------加入想设置区间为3.8分到5.0分，那你就写1.2
 #define baseNum 2.5
-
-@implementation SXAnimateVIew
-
-//CGContextMoveToPoint(ctx, 100.25, 0);
-//CGContextAddLineToPoint(ctx, 4.75, 69);
-//CGContextAddLineToPoint(ctx, 41.25, 180.5);
-//CGContextAddLineToPoint(ctx, 158.25, 180.5);
-//CGContextAddLineToPoint(ctx, 194.25, 69);
-//CGContextAddLineToPoint(ctx, 100.25, 0);
+@implementation SXBgView
 
 - (void)awakeFromNib
 {
-    self.subScore1 = 4.9-(5.0-baseNum);
-    self.subScore2 = 4.5-(5.0-baseNum);
-    self.subScore3 = 4.7-(5.0-baseNum);
-    self.subScore4 = 3.8-(5.0-baseNum);
-    self.subScore5 = 4.7-(5.0-baseNum);
+    self.subScore1 = 4.8-(5.0-baseNum);
+    self.subScore2 = 4.4-(5.0-baseNum);
+    self.subScore3 = 4.4-(5.0-baseNum);
+    self.subScore4 = 4.5-(5.0-baseNum);
+    self.subScore5 = 4.1-(5.0-baseNum);
     
 }
 
@@ -91,9 +83,8 @@
     CGContextSetLineWidth(ctx, 10);
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineJoin(ctx, kCGLineJoinRound);
-    CGContextSetRGBFillColor(ctx, 0.97, 0.5, 0.09, 0.5);
+    CGContextSetRGBFillColor(ctx, 0.18, 0.74, 0.65, 0.8);
     CGContextFillPath(ctx);
 }
-
 
 @end
