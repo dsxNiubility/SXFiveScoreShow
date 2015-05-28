@@ -10,4 +10,6 @@
 
 @interface SXFiveScoreCell : UITableViewCell
 
++ (instancetype)cell;
+
 @end

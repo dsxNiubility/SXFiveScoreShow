@@ -14,6 +14,12 @@
     // Initialization code
 }
 
++ (instancetype)cell{
+    
+   return [[NSBundle mainBundle]loadNibNamed:@"SXFiveScoreCell" owner:nil options:nil][0];
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
