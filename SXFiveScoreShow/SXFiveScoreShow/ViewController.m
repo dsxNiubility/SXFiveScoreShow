@@ -45,5 +45,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)pushClick {
+    [self performSegueWithIdentifier:@"fiveScore" sender:nil];
+}
 
 @end
