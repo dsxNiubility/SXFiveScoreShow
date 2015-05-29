@@ -7,7 +7,16 @@
 //
 
 #import "SXFiveScoreCell.h"
+#import "SXBgView.h"
+#import "SXAnimateVIew.h"
 
+@interface SXFiveScoreCell ()
+
+@property (weak, nonatomic) IBOutlet SXBgView *compareScoreView;
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
+
+
+@end
 @implementation SXFiveScoreCell
 
 - (void)awakeFromNib {
@@ -20,10 +29,7 @@
     
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
-}
+
 
 @end

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SXAnimateVIew.h"
+#import "SXTableViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
@@ -47,6 +48,18 @@
 }
 - (IBAction)pushClick {
     [self performSegueWithIdentifier:@"fiveScore" sender:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    SXTableViewController *tbvc = (SXTableViewController *)segue.destinationViewController;
+    
+    // ------这里数组里的count只能是5.
+    // ------暂时只设置了维度为5的图形效果 后续会设置维度3（三角形） 维度4（菱形）的效果
+    tbvc.labelNames = @[@"服务态度",@"环境设施",@"视听效果",@"地理位置",@"前台长相"];
+    tbvc.scores = @[@4.5,@4.1,@4.6,@4.8,@4.9];
+    tbvc.compareScores =@[@4.3,@4.4,@4.5,@4.6,@4.5];
+    
 }
 
 @end

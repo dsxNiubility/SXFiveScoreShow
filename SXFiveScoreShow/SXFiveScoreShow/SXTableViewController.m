@@ -45,6 +45,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SXFiveScoreCell *cell = [SXFiveScoreCell cell];
     
+    cell.scores = self.scores;
+    cell.compareScores = self.compareScores;
+    cell.labelNames = self.labelNames;
+    
     return cell;
 }
 

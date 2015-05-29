@@ -43,6 +43,10 @@
                     <constraint firstItem="i0Q-2A-39C" firstAttribute="centerY" secondItem="Fb3-4b-AY5" secondAttribute="centerY" id="yJa-sN-LgS"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="compareScoreView" destination="J5y-bO-nG1" id="U9a-Tg-8he"/>
+                <outlet property="scoreView" destination="i0Q-2A-39C" id="TQS-QC-2d9"/>
+            </connections>
             <point key="canvasLocation" x="318" y="292"/>
         </tableViewCell>
     </objects>
