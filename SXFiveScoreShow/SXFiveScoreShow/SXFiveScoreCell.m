@@ -21,6 +21,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
 }
 
 + (instancetype)cell{
@@ -55,6 +56,13 @@
 - (void)setLabelNames:(NSArray *)labelNames
 {
     
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [UIView animateWithDuration:2.0 animations:^{
+        self.scoreView.transform = CGAffineTransformIdentity;
+    }];
 }
 
 @end
