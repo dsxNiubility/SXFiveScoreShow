@@ -9,7 +9,7 @@
 #import "SXAnimateVIew.h"
 
 // ------加入想设置区间为3.8分到5.0分，那你就写1.2
-#define baseNum 2.5
+#define baseNum 5.0
 
 @implementation SXAnimateVIew
 
@@ -23,9 +23,9 @@
 - (void)awakeFromNib
 {
     self.subScore1 = 4.9-(5.0-baseNum);
-    self.subScore2 = 4.5-(5.0-baseNum);
-    self.subScore3 = 4.7-(5.0-baseNum);
-    self.subScore4 = 3.8-(5.0-baseNum);
+    self.subScore2 = 4.8-(5.0-baseNum);
+    self.subScore3 = 4.8-(5.0-baseNum);
+    self.subScore4 = 4.8-(5.0-baseNum);
     self.subScore5 = 4.7-(5.0-baseNum);
     
 }

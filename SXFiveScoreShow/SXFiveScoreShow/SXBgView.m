@@ -9,7 +9,7 @@
 #import "SXBgView.h"
 
 // ------加入想设置区间为3.8分到5.0分，那你就写1.2
-#define baseNum 2.5
+#define baseNum 5.0
 @implementation SXBgView
 
 - (void)awakeFromNib

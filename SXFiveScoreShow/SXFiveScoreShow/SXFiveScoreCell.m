@@ -31,5 +31,30 @@
 
 
 
+- (void)setScores:(NSArray *)scores
+{
+    _scores = scores;
+    self.scoreView.subScore1 = [scores[0] floatValue];
+    self.scoreView.subScore2 = [scores[1] floatValue];
+    self.scoreView.subScore3 = [scores[2] floatValue];
+    self.scoreView.subScore4 = [scores[3] floatValue];
+    self.scoreView.subScore5 = [scores[4] floatValue];
+    
+}
+- (void)setCompareScores:(NSArray *)compareScores
+{
+    _compareScores = compareScores;
+    self.compareScoreView.subScore1 = [compareScores[0] floatValue];
+    self.compareScoreView.subScore2 = [compareScores[1] floatValue];
+    self.compareScoreView.subScore3 = [compareScores[2] floatValue];
+    self.compareScoreView.subScore4 = [compareScores[3] floatValue];
+    self.compareScoreView.subScore5 = [compareScores[4] floatValue];
+    
+    
+}
+- (void)setLabelNames:(NSArray *)labelNames
+{
+    
+}
 
 @end
