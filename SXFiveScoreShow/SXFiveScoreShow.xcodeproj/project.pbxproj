@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D5466E21B141A24007B700D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E11B141A24007B700D /* main.m */; };
 		1D5466E51B141A24007B700D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E41B141A24007B700D /* AppDelegate.m */; };
-		1D5466E81B141A24007B700D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E71B141A24007B700D /* ViewController.m */; };
+		1D5466E81B141A24007B700D /* SXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E71B141A24007B700D /* SXDemoViewController.m */; };
 		1D5466EB1B141A24007B700D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466E91B141A24007B700D /* Main.storyboard */; };
 		1D5466ED1B141A24007B700D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EC1B141A24007B700D /* Images.xcassets */; };
 		1D5466F01B141A24007B700D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EE1B141A24007B700D /* LaunchScreen.xib */; };
@@ -17,7 +17,7 @@
 		1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5467061B141DBF007B700D /* SXAnimateVIew.m */; };
 		1DA6A3401B159739004D348A /* SXFiveScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6A33E1B159739004D348A /* SXFiveScoreCell.m */; };
 		1DA6A3411B159739004D348A /* SXFiveScoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DA6A33F1B159739004D348A /* SXFiveScoreCell.xib */; };
-		1DA6A3441B1597FC004D348A /* SXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6A3431B1597FC004D348A /* SXTableViewController.m */; };
+		1DA6A3441B1597FC004D348A /* SXUseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 		1D5466E11B141A24007B700D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D5466E31B141A24007B700D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D5466E41B141A24007B700D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D5466E61B141A24007B700D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D5466E71B141A24007B700D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D5466E61B141A24007B700D /* SXDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXDemoViewController.h; sourceTree = "<group>"; };
+		1D5466E71B141A24007B700D /* SXDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXDemoViewController.m; sourceTree = "<group>"; };
 		1D5466EA1B141A24007B700D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D5466EC1B141A24007B700D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D5466EF1B141A24007B700D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,8 +49,8 @@
 		1DA6A33D1B159739004D348A /* SXFiveScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXFiveScoreCell.h; sourceTree = "<group>"; };
 		1DA6A33E1B159739004D348A /* SXFiveScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXFiveScoreCell.m; sourceTree = "<group>"; };
 		1DA6A33F1B159739004D348A /* SXFiveScoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXFiveScoreCell.xib; sourceTree = "<group>"; };
-		1DA6A3421B1597FC004D348A /* SXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTableViewController.h; sourceTree = "<group>"; };
-		1DA6A3431B1597FC004D348A /* SXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTableViewController.m; sourceTree = "<group>"; };
+		1DA6A3421B1597FC004D348A /* SXUseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXUseTableViewController.h; sourceTree = "<group>"; };
+		1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXUseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,10 @@
 			children = (
 				1D5466E31B141A24007B700D /* AppDelegate.h */,
 				1D5466E41B141A24007B700D /* AppDelegate.m */,
-				1D5466E61B141A24007B700D /* ViewController.h */,
-				1D5466E71B141A24007B700D /* ViewController.m */,
-				1DA6A3421B1597FC004D348A /* SXTableViewController.h */,
-				1DA6A3431B1597FC004D348A /* SXTableViewController.m */,
+				1D5466E61B141A24007B700D /* SXDemoViewController.h */,
+				1D5466E71B141A24007B700D /* SXDemoViewController.m */,
+				1DA6A3421B1597FC004D348A /* SXUseTableViewController.h */,
+				1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */,
 				1D5467051B141DBF007B700D /* SXAnimateVIew.h */,
 				1D5467061B141DBF007B700D /* SXAnimateVIew.m */,
 				1D5466E91B141A24007B700D /* Main.storyboard */,
@@ -239,12 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5466E81B141A24007B700D /* ViewController.m in Sources */,
+				1D5466E81B141A24007B700D /* SXDemoViewController.m in Sources */,
 				1DA6A3401B159739004D348A /* SXFiveScoreCell.m in Sources */,
 				1D5466E51B141A24007B700D /* AppDelegate.m in Sources */,
 				1D5466E21B141A24007B700D /* main.m in Sources */,
 				1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */,
-				1DA6A3441B1597FC004D348A /* SXTableViewController.m in Sources */,
+				1DA6A3441B1597FC004D348A /* SXUseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

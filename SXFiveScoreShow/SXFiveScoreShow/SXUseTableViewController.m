@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 Sankuai. All rights reserved.
 //
 
-#import "SXTableViewController.h"
+#import "SXUseTableViewController.h"
 #import "SXFiveScoreCell.h"
 
-@interface SXTableViewController ()
+@interface SXUseTableViewController ()
 
 
 @end
 
-@implementation SXTableViewController
+@implementation SXUseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

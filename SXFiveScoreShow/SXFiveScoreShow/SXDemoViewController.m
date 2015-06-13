@@ -6,18 +6,18 @@
 //  Copyright (c) 2015年 Sankuai. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SXDemoViewController.h"
 #import "SXAnimateVIew.h"
-#import "SXTableViewController.h"
+#import "SXUseTableViewController.h"
 
-@interface ViewController ()
+@interface SXDemoViewController ()
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
 
 @property(nonatomic,assign,getter=isBig)BOOL big;
 
 @end
 
-@implementation ViewController
+@implementation SXDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -52,7 +52,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    SXTableViewController *tbvc = (SXTableViewController *)segue.destinationViewController;
+    SXUseTableViewController *tbvc = (SXUseTableViewController *)segue.destinationViewController;
     
     // ------这里数组里的count只能是5.
     // ------暂时只设置了维度为5的图形效果 后续会设置维度3（三角形） 维度4（菱形）的效果

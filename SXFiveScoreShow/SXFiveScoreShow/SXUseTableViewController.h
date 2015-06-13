@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SXTableViewController : UITableViewController
+@interface SXUseTableViewController : UITableViewController
 
 /** 各项分数*/
 @property(nonatomic,strong)NSArray *scores;
