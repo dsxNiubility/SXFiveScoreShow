@@ -87,11 +87,11 @@
     CGContextAddLineToPoint(ctx, x1, y1);
     
     
-    CGContextSetLineWidth(ctx, 10);
+    CGContextSetLineWidth(ctx, 1);
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineJoin(ctx, kCGLineJoinRound);
-    CGContextSetRGBFillColor(ctx, 0.18, 0.74, 0.65, 0.8);
-    CGContextFillPath(ctx);
+    CGContextSetRGBStrokeColor(ctx, 0.18, 0.74, 0.65, 0.8);
+    CGContextStrokePath(ctx);
 }
 
 @end

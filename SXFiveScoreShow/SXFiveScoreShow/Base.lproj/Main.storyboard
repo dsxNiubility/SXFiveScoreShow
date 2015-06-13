@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgfive" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
                                 <rect key="frame" x="87" y="234" width="200" height="200"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
@@ -114,6 +114,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bgfive" width="200" height="200"/>
+        <image name="fb_five" width="200" height="200"/>
     </resources>
 </document>

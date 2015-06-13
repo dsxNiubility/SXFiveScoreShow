@@ -13,7 +13,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgfive" translatesAutoresizingMaskIntoConstraints="NO" id="Fb3-4b-AY5">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="Fb3-4b-AY5">
                         <rect key="frame" x="60" y="25" width="200" height="200"/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5y-bO-nG1" userLabel="AnimateV Iew_bg" customClass="SXBgView">
@@ -51,6 +51,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="bgfive" width="200" height="200"/>
+        <image name="fb_five" width="200" height="200"/>
     </resources>
 </document>
