@@ -45,6 +45,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="compareScoreView" destination="J5y-bO-nG1" id="U9a-Tg-8he"/>
+                <outlet property="scoreImg" destination="Fb3-4b-AY5" id="1Qe-Vv-oX1"/>
                 <outlet property="scoreView" destination="i0Q-2A-39C" id="TQS-QC-2d9"/>
             </connections>
             <point key="canvasLocation" x="318" y="292"/>

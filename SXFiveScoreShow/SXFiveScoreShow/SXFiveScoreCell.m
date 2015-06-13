@@ -7,11 +7,11 @@
 //
 
 #import "SXFiveScoreCell.h"
-#import "SXBgView.h"
 #import "SXAnimateVIew.h"
 
 @interface SXFiveScoreCell ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *scoreImg;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
 
@@ -42,8 +42,15 @@
     self.scoreView.subScore1 = [scores[0] floatValue];
     self.scoreView.subScore2 = [scores[1] floatValue];
     self.scoreView.subScore3 = [scores[2] floatValue];
-    self.scoreView.subScore4 = [scores[3] floatValue];
-    self.scoreView.subScore5 = [scores[4] floatValue];
+    self.scoreImg.image = [UIImage imageNamed:@"fb_three"];
+    if (scores.count > 3) {
+        self.scoreView.subScore4 = [scores[3] floatValue];
+        self.scoreImg.image = [UIImage imageNamed:@"fb_four"];
+    }
+    if (scores.count > 4) {
+        self.scoreView.subScore5 = [scores[4] floatValue];
+        self.scoreImg.image = [UIImage imageNamed:@"fb_five"];
+    }
     
 }
 - (void)setCompareScores:(NSArray *)compareScores
@@ -56,8 +63,12 @@
     self.compareScoreView.subScore1 = [compareScores[0] floatValue];
     self.compareScoreView.subScore2 = [compareScores[1] floatValue];
     self.compareScoreView.subScore3 = [compareScores[2] floatValue];
-    self.compareScoreView.subScore4 = [compareScores[3] floatValue];
-    self.compareScoreView.subScore5 = [compareScores[4] floatValue];
+    if (compareScores.count > 3) {
+        self.compareScoreView.subScore4 = [compareScores[3] floatValue];
+    }
+    if (compareScores.count > 4) {
+        self.compareScoreView.subScore5 = [compareScores[4] floatValue];
+    }
     
     
 }
