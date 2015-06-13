@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
 
+@property(nonatomic,assign,getter=isOpen)BOOL open;
 
 @end
 @implementation SXFiveScoreCell
@@ -22,6 +23,7 @@
 - (void)awakeFromNib {
     // Initialization code
     self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+    self.open = NO;
 }
 
 + (instancetype)cell{
@@ -79,9 +81,17 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [UIView animateWithDuration:2.0 animations:^{
-        self.scoreView.transform = CGAffineTransformIdentity;
-    }];
+    if (self.isOpen == NO) {
+        [UIView animateWithDuration:2.0 animations:^{
+            self.scoreView.transform = CGAffineTransformIdentity;
+        }];
+        self.open = YES;
+    }else{
+        [UIView animateWithDuration:2.0 animations:^{
+            self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+        }];
+        self.open = NO;
+    }
 }
 
 @end
