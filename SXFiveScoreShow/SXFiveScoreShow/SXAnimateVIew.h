@@ -16,5 +16,8 @@
 @property(nonatomic,assign)CGFloat subScore4;
 @property(nonatomic,assign)CGFloat subScore5;
 
+@property(nonatomic,assign)int showType;
+@property(nonatomic,strong)UIColor *showColor;
+@property(nonatomic,assign)float showWidtn;
 
 @end

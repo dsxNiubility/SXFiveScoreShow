@@ -12,7 +12,7 @@
 
 @interface SXFiveScoreCell ()
 
-@property (weak, nonatomic) IBOutlet SXBgView *compareScoreView;
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
 
 
@@ -35,6 +35,10 @@
 - (void)setScores:(NSArray *)scores
 {
     _scores = scores;
+    self.scoreView.showType = 1;
+    self.scoreView.showColor = [UIColor colorWithRed:0.97 green:0.5 blue:0.09 alpha:0.8];
+//    self.scoreView.showColor = [UIColor orangeColor];
+    self.scoreView.showWidtn = 1;
     self.scoreView.subScore1 = [scores[0] floatValue];
     self.scoreView.subScore2 = [scores[1] floatValue];
     self.scoreView.subScore3 = [scores[2] floatValue];
@@ -45,6 +49,10 @@
 - (void)setCompareScores:(NSArray *)compareScores
 {
     _compareScores = compareScores;
+    self.compareScoreView.showType = 2;
+    self.compareScoreView.showColor = [UIColor colorWithRed:0.18 green:0.74 blue:0.65 alpha:0.8];
+//    self.compareScoreView.showColor = [UIColor greenColor];
+    self.compareScoreView.showWidtn = 1;
     self.compareScoreView.subScore1 = [compareScores[0] floatValue];
     self.compareScoreView.subScore2 = [compareScores[1] floatValue];
     self.compareScoreView.subScore3 = [compareScores[2] floatValue];

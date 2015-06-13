@@ -97,11 +97,19 @@
     CGContextAddLineToPoint(ctx, x1, y1);
     
     
-    CGContextSetLineWidth(ctx, 10);
+    CGContextSetLineWidth(ctx, self.showWidtn);
     CGContextSetLineCap(ctx, kCGLineCapRound);
     CGContextSetLineJoin(ctx, kCGLineJoinRound);
-    CGContextSetRGBFillColor(ctx, 0.97, 0.5, 0.09, 0.5);
-    CGContextFillPath(ctx);
+    
+    if (self.showType == 1) {
+        CGContextSetFillColorWithColor(ctx, self.showColor.CGColor);
+        //    CGContextSetRGBFillColor(ctx, 0.97, 0.5, 0.09, 0.5);
+        CGContextFillPath(ctx);
+    }else if (self.showType == 2){
+        CGContextSetStrokeColorWithColor(ctx, self.showColor.CGColor);
+        //    CGContextSetRGBFillColor(ctx, 0.97, 0.5, 0.09, 0.5);
+        CGContextStrokePath(ctx);
+    }
 }
 
 
