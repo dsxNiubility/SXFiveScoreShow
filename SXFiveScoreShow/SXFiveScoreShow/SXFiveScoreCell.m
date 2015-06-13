@@ -82,12 +82,12 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if (self.isOpen == NO) {
-        [UIView animateWithDuration:2.0 animations:^{
+        [UIView animateWithDuration:1.0 animations:^{
             self.scoreView.transform = CGAffineTransformIdentity;
         }];
         self.open = YES;
     }else{
-        [UIView animateWithDuration:2.0 animations:^{
+        [UIView animateWithDuration:1.0 animations:^{
             self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
         }];
         self.open = NO;
