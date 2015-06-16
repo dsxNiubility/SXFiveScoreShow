@@ -16,21 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
-                                <rect key="frame" x="102" y="249" width="170" height="170"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
-                                <rect key="frame" x="102" y="249" width="170" height="170"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6W-QD-A50" customClass="SXAnimateVIew">
-                                <rect key="frame" x="102" y="249" width="170" height="170"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="170" id="WUj-ah-9bV"/>
-                                    <constraint firstAttribute="width" constant="170" id="X40-KU-CDa"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFV-4L-IWw">
                                 <rect key="frame" x="283" y="106" width="46" height="30"/>
                                 <state key="normal" title="Button">
@@ -40,19 +25,182 @@
                                     <action selector="pushClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="ozo-dE-hJi"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-Xl-8cs" userLabel="NBA对比">
+                                <rect key="frame" x="0.0" y="150" width="375" height="238"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6W-QD-A50" customClass="SXAnimateVIew">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="WUj-ah-9bV"/>
+                                            <constraint firstAttribute="width" constant="170" id="X40-KU-CDa"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yv-cp-E5Y" userLabel="davis">
+                                        <rect key="frame" x="289" y="84" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Mus-4A-1FW"/>
+                                            <constraint firstAttribute="width" constant="70" id="hv9-cT-sQM"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="davis">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="35"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="0.12156862745098039" green="0.73333333333333328" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pH-W9-avn" userLabel="curry">
+                                        <rect key="frame" x="16" y="84" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Kws-JX-zu2"/>
+                                            <constraint firstAttribute="height" constant="70" id="zln-1h-phy"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="curry">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="35"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="1" green="0.53725490196078429" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="1yv-cp-E5Y" firstAttribute="centerY" secondItem="C6W-QD-A50" secondAttribute="centerY" id="09u-nA-Jsg"/>
+                                    <constraint firstAttribute="height" constant="238" id="5E8-gk-2MF"/>
+                                    <constraint firstAttribute="centerY" secondItem="C6W-QD-A50" secondAttribute="centerY" id="7aG-3b-B0M"/>
+                                    <constraint firstAttribute="centerX" secondItem="C6W-QD-A50" secondAttribute="centerX" id="D9t-Fv-cO9"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="centerX" secondItem="9yz-4a-6gb" secondAttribute="centerX" id="EBP-ni-jGK"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="centerX" secondItem="u6i-TW-FeM" secondAttribute="centerX" id="EmB-xV-idH"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="centerY" secondItem="0pH-W9-avn" secondAttribute="centerY" id="LpP-wa-3nq"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="MoM-lW-eQ9"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="width" secondItem="9yz-4a-6gb" secondAttribute="width" id="XjI-6t-pnc"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="leading" secondItem="0pH-W9-avn" secondAttribute="trailing" constant="16" id="aPJ-s8-EXd"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="centerY" secondItem="9yz-4a-6gb" secondAttribute="centerY" id="c4P-nb-5Jm"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="centerY" secondItem="u6i-TW-FeM" secondAttribute="centerY" id="kbA-65-6Et"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="height" secondItem="u6i-TW-FeM" secondAttribute="height" id="qyl-Kr-TLC"/>
+                                    <constraint firstItem="C6W-QD-A50" firstAttribute="width" secondItem="u6i-TW-FeM" secondAttribute="width" id="tKI-s6-F0f"/>
+                                    <constraint firstItem="1yv-cp-E5Y" firstAttribute="leading" secondItem="C6W-QD-A50" secondAttribute="trailing" constant="17" id="xTO-YP-AqQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRP-oi-HO0" userLabel="NBA对比">
+                                <rect key="frame" x="0.0" y="401" width="375" height="238"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="SRV-oB-A9K">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7hL-r6-viw" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nR2-r1-HS7" customClass="SXAnimateVIew">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="Khh-FB-VhQ"/>
+                                            <constraint firstAttribute="height" constant="170" id="dtN-WZ-lZR"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udN-jN-6sU" userLabel="davis">
+                                        <rect key="frame" x="289" y="84" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="aSi-zi-RJF"/>
+                                            <constraint firstAttribute="width" constant="70" id="uQU-7Y-xxa"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="xgll">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="35"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHy-fl-1bu" userLabel="curry">
+                                        <rect key="frame" x="16" y="84" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="XAk-KD-iZ5"/>
+                                            <constraint firstAttribute="width" constant="70" id="yiC-RP-YD9"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="xierdun">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="35"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                                <color key="value" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="centerY" secondItem="7hL-r6-viw" secondAttribute="centerY" id="2Na-qC-uEF"/>
+                                    <constraint firstAttribute="centerY" secondItem="nR2-r1-HS7" secondAttribute="centerY" id="8Q8-04-Ch5"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="height" secondItem="7hL-r6-viw" secondAttribute="height" id="FFf-mR-rCi"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="height" secondItem="SRV-oB-A9K" secondAttribute="height" id="HuK-32-wJF"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="centerY" secondItem="YHy-fl-1bu" secondAttribute="centerY" id="KgX-kp-raH"/>
+                                    <constraint firstItem="udN-jN-6sU" firstAttribute="centerY" secondItem="nR2-r1-HS7" secondAttribute="centerY" id="KhI-Hw-PnN"/>
+                                    <constraint firstAttribute="height" constant="238" id="LEI-Yv-9bm"/>
+                                    <constraint firstItem="udN-jN-6sU" firstAttribute="leading" secondItem="nR2-r1-HS7" secondAttribute="trailing" constant="17" id="RVG-G5-c4k"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="centerX" secondItem="7hL-r6-viw" secondAttribute="centerX" id="WSr-K0-m0S"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="leading" secondItem="YHy-fl-1bu" secondAttribute="trailing" constant="16" id="ctT-Zt-APA"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="width" secondItem="7hL-r6-viw" secondAttribute="width" id="dFa-md-72U"/>
+                                    <constraint firstAttribute="centerX" secondItem="nR2-r1-HS7" secondAttribute="centerX" id="dM9-gi-44O"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="width" secondItem="SRV-oB-A9K" secondAttribute="width" id="oWV-Vw-xoe"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="centerX" secondItem="SRV-oB-A9K" secondAttribute="centerX" id="uDi-t6-1Qd"/>
+                                    <constraint firstItem="nR2-r1-HS7" firstAttribute="centerY" secondItem="SRV-oB-A9K" secondAttribute="centerY" id="w0U-bR-05w"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="C6W-QD-A50" secondAttribute="centerX" id="0dc-1Q-Fpw"/>
-                            <constraint firstItem="C6W-QD-A50" firstAttribute="centerY" secondItem="9yz-4a-6gb" secondAttribute="centerY" id="3TO-Ji-zNl"/>
-                            <constraint firstItem="u6i-TW-FeM" firstAttribute="centerX" secondItem="9yz-4a-6gb" secondAttribute="centerX" id="FIB-ye-owd"/>
-                            <constraint firstAttribute="centerY" secondItem="C6W-QD-A50" secondAttribute="centerY" id="Gep-Lc-SII"/>
-                            <constraint firstItem="C6W-QD-A50" firstAttribute="width" secondItem="9yz-4a-6gb" secondAttribute="width" id="KcG-u5-XNq"/>
-                            <constraint firstItem="u6i-TW-FeM" firstAttribute="width" secondItem="9yz-4a-6gb" secondAttribute="width" id="Lpw-L7-VwM"/>
-                            <constraint firstItem="u6i-TW-FeM" firstAttribute="centerY" secondItem="9yz-4a-6gb" secondAttribute="centerY" id="TRd-vH-B09"/>
-                            <constraint firstItem="u6i-TW-FeM" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="UgU-6p-ltM"/>
-                            <constraint firstItem="C6W-QD-A50" firstAttribute="centerX" secondItem="9yz-4a-6gb" secondAttribute="centerX" id="ntD-av-Fru"/>
-                            <constraint firstItem="C6W-QD-A50" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="uu1-QC-HIo"/>
+                            <constraint firstItem="nRP-oi-HO0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bgg-8r-2qD"/>
+                            <constraint firstAttribute="trailing" secondItem="NTa-Xl-8cs" secondAttribute="trailing" id="MoQ-mu-FAx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nRP-oi-HO0" secondAttribute="bottom" constant="28" id="PyV-LC-hNk"/>
+                            <constraint firstItem="NTa-Xl-8cs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="a1m-eY-fgd"/>
+                            <constraint firstItem="nRP-oi-HO0" firstAttribute="top" secondItem="NTa-Xl-8cs" secondAttribute="bottom" constant="13" id="i2e-Ir-lLE"/>
+                            <constraint firstItem="NTa-Xl-8cs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j95-eZ-arI"/>
+                            <constraint firstAttribute="trailing" secondItem="nRP-oi-HO0" secondAttribute="trailing" id="qD4-ed-qGC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="demo效果展示" id="5by-MA-VKx">
@@ -61,6 +209,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="animateView" destination="C6W-QD-A50" id="Nl0-Nc-tPE"/>
+                        <outlet property="curryView" destination="0pH-W9-avn" id="ykq-09-Doh"/>
+                        <outlet property="davisView" destination="1yv-cp-E5Y" id="NYs-Gf-6FR"/>
+                        <outlet property="xianggelilaView" destination="udN-jN-6sU" id="GqW-1y-Ovc"/>
+                        <outlet property="xierdunView" destination="YHy-fl-1bu" id="lk5-0B-a2h"/>
                         <segue destination="Jw4-sU-iuw" kind="show" identifier="fiveScore" id="gtN-bT-YFQ"/>
                     </connections>
                 </viewController>
@@ -121,6 +273,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="curry" width="538" height="540"/>
+        <image name="davis" width="540" height="540"/>
         <image name="fb_five" width="200" height="200"/>
+        <image name="xgll" width="406" height="400"/>
+        <image name="xierdun" width="534" height="526"/>
     </resources>
 </document>

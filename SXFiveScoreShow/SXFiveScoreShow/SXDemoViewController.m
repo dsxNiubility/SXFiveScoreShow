@@ -12,6 +12,10 @@
 
 @interface SXDemoViewController ()
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
+@property (weak, nonatomic) IBOutlet UIButton *curryView;
+@property (weak, nonatomic) IBOutlet UIButton *davisView;
+@property (weak, nonatomic) IBOutlet UIButton *xierdunView;
+@property (weak, nonatomic) IBOutlet UIButton *xianggelilaView;
 
 @property(nonatomic,assign,getter=isBig)BOOL big;
 
@@ -23,7 +27,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
-
+    self.curryView.layer.borderColor = [UIColor orangeColor].CGColor;
+    self.curryView.layer.borderWidth = 3;
+    self.curryView.layer.cornerRadius = 35;
+    self.curryView.layer.masksToBounds = YES;
+    
+    self.davisView.layer.borderColor = [UIColor colorWithRed:31/255.0 green:187/255.0 blue:170/255.0 alpha:1].CGColor;
+    self.davisView.layer.borderWidth = 3;
+    self.davisView.layer.cornerRadius = 35;
+    self.davisView.layer.masksToBounds = YES;
+    
+    self.xierdunView.layer.borderColor = [UIColor orangeColor].CGColor;
+    self.xierdunView.layer.borderWidth = 3;
+    self.xierdunView.layer.cornerRadius = 35;
+    self.xierdunView.layer.masksToBounds = YES;
+    
+    self.xianggelilaView.layer.borderColor = [UIColor colorWithRed:31/255.0 green:187/255.0 blue:170/255.0 alpha:1].CGColor;
+    self.xianggelilaView.layer.borderWidth = 3;
+    self.xianggelilaView.layer.cornerRadius = 35;
+    self.xianggelilaView.layer.masksToBounds = YES;
     self.big = NO;
     
 }
