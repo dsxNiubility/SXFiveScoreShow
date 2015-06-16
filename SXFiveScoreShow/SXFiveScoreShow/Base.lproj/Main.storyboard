@@ -28,10 +28,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-Xl-8cs" userLabel="NBA对比">
                                 <rect key="frame" x="0.0" y="150" width="375" height="238"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
-                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXAnimateVIew">
                                         <rect key="frame" x="102" y="34" width="170" height="170"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
@@ -44,6 +41,9 @@
                                             <constraint firstAttribute="width" constant="170" id="X40-KU-CDa"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yv-cp-E5Y" userLabel="davis">
                                         <rect key="frame" x="297" y="84" width="70" height="70"/>
                                         <constraints>
@@ -141,10 +141,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bE6-BL-rga" userLabel="NBA对比">
                                 <rect key="frame" x="0.0" y="388" width="375" height="238"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="HVR-Eh-xeD">
-                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvK-jt-shf" userLabel="AnimateV Iew_bg" customClass="SXBgView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nvK-jt-shf" userLabel="AnimateV Iew_bg" customClass="SXAnimateVIew">
                                         <rect key="frame" x="102" y="34" width="170" height="170"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
@@ -157,6 +154,9 @@
                                             <constraint firstAttribute="width" constant="170" id="tsH-Xd-qJ9"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="HVR-Eh-xeD">
+                                        <rect key="frame" x="102" y="34" width="170" height="170"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rD9-Yx-clj" userLabel="davis">
                                         <rect key="frame" x="297" y="84" width="70" height="70"/>
                                         <constraints>
@@ -269,6 +269,9 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="animateView" destination="C6W-QD-A50" id="Nl0-Nc-tPE"/>
+                        <outlet property="animateView2" destination="eJ9-aa-dQG" id="pDO-ML-3oZ"/>
+                        <outlet property="compareView" destination="u6i-TW-FeM" id="J22-hR-wTF"/>
+                        <outlet property="compareView2" destination="nvK-jt-shf" id="bYJ-Oh-1h2"/>
                         <outlet property="curryView" destination="0pH-W9-avn" id="ykq-09-Doh"/>
                         <outlet property="davisView" destination="1yv-cp-E5Y" id="NYs-Gf-6FR"/>
                         <outlet property="xianggelilaView" destination="rD9-Yx-clj" id="dyG-iq-4p9"/>

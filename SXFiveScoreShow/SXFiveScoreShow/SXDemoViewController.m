@@ -12,6 +12,9 @@
 
 @interface SXDemoViewController ()
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView;
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *compareView;
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *animateView2;
+@property (weak, nonatomic) IBOutlet SXAnimateVIew *compareView2;
 @property (weak, nonatomic) IBOutlet UIButton *curryView;
 @property (weak, nonatomic) IBOutlet UIButton *davisView;
 @property (weak, nonatomic) IBOutlet UIButton *xierdunView;
@@ -26,7 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
+//    self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
+    self.big = YES;
     self.curryView.layer.borderColor = [UIColor orangeColor].CGColor;
     self.curryView.layer.borderWidth = 3;
     self.curryView.layer.cornerRadius = 35;
@@ -46,7 +50,52 @@
     self.xianggelilaView.layer.borderWidth = 3;
     self.xianggelilaView.layer.cornerRadius = 35;
     self.xianggelilaView.layer.masksToBounds = YES;
-    self.big = NO;
+    
+    
+    self.animateView.subScore1 = 5;
+    self.animateView.subScore2 = 5;
+    self.animateView.subScore3 = 4.0;
+    self.animateView.subScore4 = 3.0;
+    self.animateView.subScore5 = 4.8;
+    
+    self.animateView.showType = 1;
+    self.animateView.showColor = [UIColor colorWithRed:0.97 green:0.5 blue:0.09 alpha:0.8];
+    //    self.scoreView.showColor = [UIColor orangeColor];
+    self.animateView.showWidtn = 1;
+    
+    self.compareView.subScore1 = 4.0;
+    self.compareView.subScore2 = 3.0;
+    self.compareView.subScore3 = 5;
+    self.compareView.subScore4 = 5;
+    self.compareView.subScore5 = 3.0;
+    
+    self.compareView.showType = 1;
+    self.compareView.showColor = [UIColor colorWithRed:0.18 green:0.74 blue:0.65 alpha:0.8];
+    //    self.compareScoreView.showColor = [UIColor greenColor];
+    self.compareView.showWidtn = 1;
+    
+    self.animateView2.subScore1 = 3.5;
+    self.animateView2.subScore2 = 3.5;
+    self.animateView2.subScore3 = 4.9;
+    self.animateView2.subScore4 = 3.5;
+    self.animateView2.subScore5 = 3.5;
+    
+    self.animateView2.showType = 1;
+    self.animateView2.showColor = [UIColor colorWithRed:0.97 green:0.5 blue:0.09 alpha:0.8];
+    //    self.scoreView.showColor = [UIColor orangeColor];
+    self.animateView2.showWidtn = 1;
+    
+    self.compareView2.subScore1 = 4.1;
+    self.compareView2.subScore2 = 4.9;
+    self.compareView2.subScore3 = 4.9;
+    self.compareView2.subScore4 = 4.9;
+    self.compareView2.subScore5 = 4.9;
+    
+    self.compareView2.showType = 2;
+    self.compareView2.showColor = [UIColor colorWithRed:0.18 green:0.74 blue:0.65 alpha:0.8];
+    //    self.compareScoreView.showColor = [UIColor greenColor];
+    self.compareView2.showWidtn = 2;
+    
     
 }
 
