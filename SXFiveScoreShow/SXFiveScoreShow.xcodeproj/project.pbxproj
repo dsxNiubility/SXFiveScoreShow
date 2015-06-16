@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D50C6C01B3041D500C2230D /* SXAnimateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50C6BC1B3041D500C2230D /* SXAnimateVIew.m */; };
+		1D50C6C11B3041D500C2230D /* SXFiveScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50C6BE1B3041D500C2230D /* SXFiveScoreCell.m */; };
+		1D50C6C21B3041D500C2230D /* SXFiveScoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D50C6BF1B3041D500C2230D /* SXFiveScoreCell.xib */; };
 		1D5466E21B141A24007B700D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E11B141A24007B700D /* main.m */; };
 		1D5466E51B141A24007B700D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E41B141A24007B700D /* AppDelegate.m */; };
 		1D5466E81B141A24007B700D /* SXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466E71B141A24007B700D /* SXDemoViewController.m */; };
@@ -14,9 +17,6 @@
 		1D5466ED1B141A24007B700D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EC1B141A24007B700D /* Images.xcassets */; };
 		1D5466F01B141A24007B700D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5466EE1B141A24007B700D /* LaunchScreen.xib */; };
 		1D5466FC1B141A25007B700D /* SXFiveScoreShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5466FB1B141A25007B700D /* SXFiveScoreShowTests.m */; };
-		1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5467061B141DBF007B700D /* SXAnimateVIew.m */; };
-		1DA6A3401B159739004D348A /* SXFiveScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6A33E1B159739004D348A /* SXFiveScoreCell.m */; };
-		1DA6A3411B159739004D348A /* SXFiveScoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DA6A33F1B159739004D348A /* SXFiveScoreCell.xib */; };
 		1DA6A3441B1597FC004D348A /* SXUseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D50C6BB1B3041D500C2230D /* SXAnimateVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAnimateVIew.h; sourceTree = "<group>"; };
+		1D50C6BC1B3041D500C2230D /* SXAnimateVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAnimateVIew.m; sourceTree = "<group>"; };
+		1D50C6BD1B3041D500C2230D /* SXFiveScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXFiveScoreCell.h; sourceTree = "<group>"; };
+		1D50C6BE1B3041D500C2230D /* SXFiveScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXFiveScoreCell.m; sourceTree = "<group>"; };
+		1D50C6BF1B3041D500C2230D /* SXFiveScoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXFiveScoreCell.xib; sourceTree = "<group>"; };
 		1D5466DC1B141A24007B700D /* SXFiveScoreShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXFiveScoreShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5466E01B141A24007B700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5466E11B141A24007B700D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,11 +49,6 @@
 		1D5466F51B141A25007B700D /* SXFiveScoreShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXFiveScoreShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5466FA1B141A25007B700D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D5466FB1B141A25007B700D /* SXFiveScoreShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXFiveScoreShowTests.m; sourceTree = "<group>"; };
-		1D5467051B141DBF007B700D /* SXAnimateVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAnimateVIew.h; sourceTree = "<group>"; };
-		1D5467061B141DBF007B700D /* SXAnimateVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAnimateVIew.m; sourceTree = "<group>"; };
-		1DA6A33D1B159739004D348A /* SXFiveScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXFiveScoreCell.h; sourceTree = "<group>"; };
-		1DA6A33E1B159739004D348A /* SXFiveScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXFiveScoreCell.m; sourceTree = "<group>"; };
-		1DA6A33F1B159739004D348A /* SXFiveScoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXFiveScoreCell.xib; sourceTree = "<group>"; };
 		1DA6A3421B1597FC004D348A /* SXUseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXUseTableViewController.h; sourceTree = "<group>"; };
 		1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXUseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D50C6BA1B3041D500C2230D /* SXFiveScore */ = {
+			isa = PBXGroup;
+			children = (
+				1D50C6BB1B3041D500C2230D /* SXAnimateVIew.h */,
+				1D50C6BC1B3041D500C2230D /* SXAnimateVIew.m */,
+				1D50C6BD1B3041D500C2230D /* SXFiveScoreCell.h */,
+				1D50C6BE1B3041D500C2230D /* SXFiveScoreCell.m */,
+				1D50C6BF1B3041D500C2230D /* SXFiveScoreCell.xib */,
+			);
+			path = SXFiveScore;
+			sourceTree = "<group>";
+		};
 		1D5466D31B141A24007B700D = {
 			isa = PBXGroup;
 			children = (
@@ -92,18 +104,14 @@
 		1D5466DE1B141A24007B700D /* SXFiveScoreShow */ = {
 			isa = PBXGroup;
 			children = (
+				1D50C6BA1B3041D500C2230D /* SXFiveScore */,
 				1D5466E31B141A24007B700D /* AppDelegate.h */,
 				1D5466E41B141A24007B700D /* AppDelegate.m */,
 				1D5466E61B141A24007B700D /* SXDemoViewController.h */,
 				1D5466E71B141A24007B700D /* SXDemoViewController.m */,
 				1DA6A3421B1597FC004D348A /* SXUseTableViewController.h */,
 				1DA6A3431B1597FC004D348A /* SXUseTableViewController.m */,
-				1D5467051B141DBF007B700D /* SXAnimateVIew.h */,
-				1D5467061B141DBF007B700D /* SXAnimateVIew.m */,
 				1D5466E91B141A24007B700D /* Main.storyboard */,
-				1DA6A33D1B159739004D348A /* SXFiveScoreCell.h */,
-				1DA6A33E1B159739004D348A /* SXFiveScoreCell.m */,
-				1DA6A33F1B159739004D348A /* SXFiveScoreCell.xib */,
 				1D5466EC1B141A24007B700D /* Images.xcassets */,
 				1D5466EE1B141A24007B700D /* LaunchScreen.xib */,
 				1D5466DF1B141A24007B700D /* Supporting Files */,
@@ -219,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D5466EB1B141A24007B700D /* Main.storyboard in Resources */,
-				1DA6A3411B159739004D348A /* SXFiveScoreCell.xib in Resources */,
+				1D50C6C21B3041D500C2230D /* SXFiveScoreCell.xib in Resources */,
 				1D5466F01B141A24007B700D /* LaunchScreen.xib in Resources */,
 				1D5466ED1B141A24007B700D /* Images.xcassets in Resources */,
 			);
@@ -239,11 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D50C6C01B3041D500C2230D /* SXAnimateVIew.m in Sources */,
+				1D50C6C11B3041D500C2230D /* SXFiveScoreCell.m in Sources */,
 				1D5466E81B141A24007B700D /* SXDemoViewController.m in Sources */,
-				1DA6A3401B159739004D348A /* SXFiveScoreCell.m in Sources */,
 				1D5466E51B141A24007B700D /* AppDelegate.m in Sources */,
 				1D5466E21B141A24007B700D /* main.m in Sources */,
-				1D5467071B141DBF007B700D /* SXAnimateVIew.m in Sources */,
 				1DA6A3441B1597FC004D348A /* SXUseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
