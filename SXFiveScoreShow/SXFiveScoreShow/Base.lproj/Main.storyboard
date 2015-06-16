@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--Demo View Controller-->
+        <!--demo效果展示-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SXDemoViewController" sceneMemberID="viewController">
@@ -17,18 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="9yz-4a-6gb">
-                                <rect key="frame" x="87" y="234" width="200" height="200"/>
+                                <rect key="frame" x="102" y="249" width="170" height="170"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6i-TW-FeM" userLabel="AnimateV Iew_bg" customClass="SXBgView">
-                                <rect key="frame" x="87" y="234" width="200" height="200"/>
+                                <rect key="frame" x="102" y="249" width="170" height="170"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6W-QD-A50" customClass="SXAnimateVIew">
-                                <rect key="frame" x="87" y="234" width="200" height="200"/>
+                                <rect key="frame" x="102" y="249" width="170" height="170"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="WUj-ah-9bV"/>
-                                    <constraint firstAttribute="width" constant="200" id="X40-KU-CDa"/>
+                                    <constraint firstAttribute="height" constant="170" id="WUj-ah-9bV"/>
+                                    <constraint firstAttribute="width" constant="170" id="X40-KU-CDa"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFV-4L-IWw">
@@ -55,7 +55,9 @@
                             <constraint firstItem="C6W-QD-A50" firstAttribute="height" secondItem="9yz-4a-6gb" secondAttribute="height" id="uu1-QC-HIo"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="5by-MA-VKx"/>
+                    <navigationItem key="navigationItem" title="demo效果展示" id="5by-MA-VKx">
+                        <barButtonItem key="backBarButtonItem" title=" " id="BN5-Oz-DzB"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="animateView" destination="C6W-QD-A50" id="Nl0-Nc-tPE"/>
@@ -64,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="828.5" y="562.5"/>
+            <point key="canvasLocation" x="686.5" y="547.5"/>
         </scene>
         <!--Use Table View Controller-->
         <scene sceneID="K8c-2R-0xg">
@@ -102,6 +104,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m1w-Ek-Mis">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -110,7 +117,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1W-lD-gxw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58.5" y="502.5"/>
+            <point key="canvasLocation" x="187.5" y="534.5"/>
         </scene>
     </scenes>
     <resources>

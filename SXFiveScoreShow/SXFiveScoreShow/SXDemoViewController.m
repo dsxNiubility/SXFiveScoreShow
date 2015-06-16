@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
-    
+
     self.big = NO;
     
 }
