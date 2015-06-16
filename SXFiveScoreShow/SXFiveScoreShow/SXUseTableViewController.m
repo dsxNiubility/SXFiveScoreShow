@@ -38,23 +38,55 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 3;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    SXFiveScoreCell *cell = [SXFiveScoreCell cell];
-    
-    cell.scores = self.scores;
-    cell.compareScores = self.compareScores;
-    cell.labelNames = self.labelNames;
-    
-    return cell;
+    if (indexPath.row == 0) {
+        SXFiveScoreCell *cell = [SXFiveScoreCell cell];
+        
+        cell.scores = self.scores;
+        cell.compareScores = self.compareScores;
+        cell.labelNames = self.labelNames;
+        
+        return cell;
+    }else if (indexPath.row == 1){
+        NSMutableArray *mScoreArray = [self.scores mutableCopy];
+        [mScoreArray removeLastObject];
+        NSMutableArray *mCompareArray = [self.compareScores mutableCopy];
+        [mCompareArray removeLastObject];
+        
+        SXFiveScoreCell *cell = [SXFiveScoreCell cell];
+        
+        cell.scores = mScoreArray;
+        cell.compareScores = mCompareArray;
+        cell.labelNames = self.labelNames;
+        
+        return cell;
+        
+    }else if (indexPath.row == 2){
+        NSMutableArray *mScoreArray = [self.scores mutableCopy];
+        [mScoreArray removeLastObject];
+        [mScoreArray removeLastObject];
+        NSMutableArray *mCompareArray = [self.compareScores mutableCopy];
+        [mCompareArray removeLastObject];
+        [mCompareArray removeLastObject];
+        
+        SXFiveScoreCell *cell = [SXFiveScoreCell cell];
+        
+        cell.scores = mScoreArray;
+        cell.compareScores = mCompareArray;
+        cell.labelNames = self.labelNames;
+        
+        return cell;
+    }
+    return nil;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 210;
+    return 230;
 }
 
 
