@@ -14,18 +14,18 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_five" translatesAutoresizingMaskIntoConstraints="NO" id="Fb3-4b-AY5">
-                        <rect key="frame" x="60" y="15" width="200" height="200"/>
+                        <rect key="frame" x="85" y="40" width="150" height="150"/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J5y-bO-nG1" userLabel="AnimateV Iew_bg" customClass="SXAnimateVIew">
-                        <rect key="frame" x="60" y="15" width="200" height="200"/>
+                        <rect key="frame" x="85" y="40" width="150" height="150"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0Q-2A-39C" customClass="SXAnimateVIew">
-                        <rect key="frame" x="60" y="15" width="200" height="200"/>
+                        <rect key="frame" x="85" y="40" width="150" height="150"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="200" id="3Ax-sU-Gip"/>
-                            <constraint firstAttribute="width" constant="200" id="gSd-Wn-4p8"/>
+                            <constraint firstAttribute="height" constant="150" id="3Ax-sU-Gip"/>
+                            <constraint firstAttribute="width" constant="150" id="gSd-Wn-4p8"/>
                         </constraints>
                     </view>
                 </subviews>

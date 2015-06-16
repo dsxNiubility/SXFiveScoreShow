@@ -69,20 +69,20 @@
         
         
         
-        x1 = 100.25;
-        y1 = 100 - 100 * (subScore1 / baseNum);
+        x1 = (100.25) * self.bounds.size.width/200;
+        y1 = (100 - 100 * (subScore1 / baseNum)) * self.bounds.size.width/200;
         
-        x2 = 100.25 - (100.25 - 4.75) * (subScore2 / baseNum);
-        y2 = 100 - (100-69) * (subScore2 / baseNum);
+        x2 = (100.25 - (100.25 - 4.75) * (subScore2 / baseNum)) * self.bounds.size.width/200;
+        y2 = (100 - (100-69) * (subScore2 / baseNum)) * self.bounds.size.width/200;
         
-        x3 = 100.25 - (100.25 - 41.25) * (subScore3 / baseNum);
-        y3 = 100 + (180.5 - 100) * (subScore3 / baseNum);
+        x3 = (100.25 - (100.25 - 41.25) * (subScore3 / baseNum)) * self.bounds.size.width/200;
+        y3 = (100 + (180.5 - 100) * (subScore3 / baseNum)) * self.bounds.size.width/200;
         
-        x4 = 100.25 + (158.25 - 100.25) * (subScore4 / baseNum);
-        y4 = 100 + (180.5 - 100) * (subScore4 / baseNum);
+        x4 = (100.25 + (158.25 - 100.25) * (subScore4 / baseNum)) * self.bounds.size.width/200;
+        y4 = (100 + (180.5 - 100) * (subScore4 / baseNum)) * self.bounds.size.width/200;
         
-        x5 = 100.25 + (194.75 - 100.25) * (subScore5 / baseNum);
-        y5 = 100 - (100 - 69) * (subScore5 / baseNum);
+        x5 = (100.25 + (194.75 - 100.25) * (subScore5 / baseNum)) * self.bounds.size.width/200;
+        y5 = (100 - (100 - 69) * (subScore5 / baseNum)) * self.bounds.size.width/200;
         
         
         
@@ -116,17 +116,17 @@
         subScore4 = subScore4-(5.0-baseNum);
         
         
-        x1 = 100.25;
-        y1 = 100 - 100 * (subScore1 / baseNum);
+        x1 = (100.25) * self.bounds.size.width/200;
+        y1 = (100 - 100 * (subScore1 / baseNum)) * self.bounds.size.width/200;
         
-        x2 = 100.25 - (100.25 - 0) * (subScore2 / baseNum);
-        y2 = 100;
+        x2 = (100.25 - (100.25 - 0) * (subScore2 / baseNum)) * self.bounds.size.width/200;
+        y2 = (100) * self.bounds.size.width/200;
         
-        x3 = 100.25;
-        y3 = 100 + (200 - 100) * (subScore3 / baseNum);
+        x3 = (100.25) * self.bounds.size.width/200;
+        y3 = (100 + (200 - 100) * (subScore3 / baseNum)) * self.bounds.size.width/200;
         
-        x4 = 100.25 + (200 - 100.25) * (subScore4 / baseNum);
-        y4 = 100;
+        x4 = (100.25 + (200 - 100.25) * (subScore4 / baseNum)) * self.bounds.size.width/200;
+        y4 = (100) * self.bounds.size.width/200;
         
         CGContextRef ctx = UIGraphicsGetCurrentContext();
         
@@ -157,14 +157,14 @@
         
         
         
-        x1 = 100.25;
-        y1 = 100 - 100 * (subScore1 / baseNum);
+        x1 = (100.25) * self.bounds.size.width/200;
+        y1 = (100 - 100 * (subScore1 / baseNum)) * self.bounds.size.width/200;
         
-        x2 = 100.25 - (100.25 - 15) * (subScore2 / baseNum);
-        y2 = 100 + (150 - 100) * (subScore2 / baseNum);
+        x2 = (100.25 - (100.25 - 15) * (subScore2 / baseNum)) * self.bounds.size.width/200;
+        y2 = (100 + (150 - 100) * (subScore2 / baseNum)) * self.bounds.size.width/200;
         
-        x3 = 100.25 + (185 - 100.25) * (subScore3 / baseNum);
-        y3 = 100 + (150 - 100) * (subScore3 / baseNum);
+        x3 = (100.25 + (185 - 100.25) * (subScore3 / baseNum)) * self.bounds.size.width/200;
+        y3 = (100 + (150 - 100) * (subScore3 / baseNum)) * self.bounds.size.width/200;
         
         CGContextRef ctx = UIGraphicsGetCurrentContext();
         
