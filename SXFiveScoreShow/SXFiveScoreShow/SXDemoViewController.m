@@ -86,10 +86,10 @@
     self.animateView2.showWidtn = 1;
     
     self.compareView2.subScore1 = 4.1;
-    self.compareView2.subScore2 = 4.9;
+    self.compareView2.subScore2 = 4.1;
     self.compareView2.subScore3 = 4.9;
-    self.compareView2.subScore4 = 4.9;
-    self.compareView2.subScore5 = 4.9;
+    self.compareView2.subScore4 = 4.1;
+    self.compareView2.subScore5 = 4.1;
     
     self.compareView2.showType = 2;
     self.compareView2.showColor = [UIColor colorWithRed:0.18 green:0.74 blue:0.65 alpha:0.8];
