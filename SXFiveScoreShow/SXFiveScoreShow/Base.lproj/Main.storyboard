@@ -286,13 +286,19 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入五个维度的分数0~5.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADx-bY-mPz">
-                                        <rect key="frame" x="248" y="18" width="119" height="21"/>
+                                        <rect key="frame" x="248" y="5" width="119" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="和五个维度的比较分数0~5.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYo-ma-NYU">
+                                        <rect key="frame" x="248" y="17" width="119" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="3Fu-kg-VkO" firstAttribute="width" secondItem="r4x-3E-EiS" secondAttribute="width" id="4PY-8q-MLH"/>
                                     <constraint firstAttribute="centerY" secondItem="2sd-Uy-ZDq" secondAttribute="centerY" id="C1N-DK-jax"/>
@@ -320,59 +326,63 @@
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.6" borderStyle="roundedRect" placeholder="0~5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ruD-dT-fuT">
                                         <rect key="frame" x="8" y="5" width="40" height="30"/>
-                                        <color key="tintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="93u-b2-mIv"/>
                                             <constraint firstAttribute="height" constant="30" id="koY-6X-BgZ"/>
                                         </constraints>
-                                        <color key="textColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.7" borderStyle="roundedRect" placeholder="0~5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B69-aU-vCq">
                                         <rect key="frame" x="56" y="5" width="40" height="30"/>
-                                        <color key="tintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.8" borderStyle="roundedRect" placeholder="0~5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fc4-JO-PVf">
                                         <rect key="frame" x="104" y="5" width="40" height="30"/>
-                                        <color key="tintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.9" borderStyle="roundedRect" placeholder="0~5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hH9-Rh-LmL">
                                         <rect key="frame" x="152" y="5" width="40" height="30"/>
-                                        <color key="tintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3.5" borderStyle="roundedRect" placeholder="0~5.0" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BBH-OH-yk3">
                                         <rect key="frame" x="200" y="5" width="40" height="30"/>
-                                        <color key="tintColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="和五个维度的比较分数0~5.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYo-ma-NYU">
-                                        <rect key="frame" x="248" y="0.0" width="119" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtK-cx-OxP">
-                                        <rect key="frame" x="245" y="22" width="105" height="13"/>
+                                        <rect key="frame" x="247" y="11" width="114" height="20"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                        <state key="normal" title="点击到新的页面展示">
-                                            <color key="titleColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="1" green="0.53725490200000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="点击PUSH新页面展示">
+                                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="pushClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkh-Nv-gfx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="ruD-dT-fuT" firstAttribute="height" secondItem="B69-aU-vCq" secondAttribute="height" id="5iU-X8-xap"/>
                                     <constraint firstItem="fc4-JO-PVf" firstAttribute="width" secondItem="B69-aU-vCq" secondAttribute="width" id="5kn-gq-I6K"/>
@@ -420,10 +430,20 @@
                     <connections>
                         <outlet property="animateView" destination="C6W-QD-A50" id="Nl0-Nc-tPE"/>
                         <outlet property="animateView2" destination="eJ9-aa-dQG" id="pDO-ML-3oZ"/>
+                        <outlet property="compareLabel1" destination="ruD-dT-fuT" id="sZw-Zj-yGa"/>
+                        <outlet property="compareLabel2" destination="ruD-dT-fuT" id="f2e-29-ID3"/>
+                        <outlet property="compareLabel3" destination="B69-aU-vCq" id="TL4-7U-t4z"/>
+                        <outlet property="compareLabel4" destination="fc4-JO-PVf" id="487-wV-hTM"/>
+                        <outlet property="compareLabel5" destination="BBH-OH-yk3" id="VmP-sq-UFN"/>
                         <outlet property="compareView" destination="u6i-TW-FeM" id="J22-hR-wTF"/>
                         <outlet property="compareView2" destination="nvK-jt-shf" id="bYJ-Oh-1h2"/>
                         <outlet property="curryView" destination="0pH-W9-avn" id="ykq-09-Doh"/>
                         <outlet property="davisView" destination="1yv-cp-E5Y" id="NYs-Gf-6FR"/>
+                        <outlet property="scoreLabel1" destination="2sd-Uy-ZDq" id="plW-vx-11N"/>
+                        <outlet property="scoreLabel2" destination="r4x-3E-EiS" id="gZK-91-P1q"/>
+                        <outlet property="scoreLabel3" destination="3Fu-kg-VkO" id="e0x-OG-o4T"/>
+                        <outlet property="scoreLabel4" destination="xDx-gh-05e" id="g8s-fx-vJu"/>
+                        <outlet property="scoreLabel5" destination="iHO-ti-r1H" id="R6x-c4-9XS"/>
                         <outlet property="xianggelilaView" destination="rD9-Yx-clj" id="dyG-iq-4p9"/>
                         <outlet property="xierdunView" destination="w5P-oq-5bx" id="H02-ah-2qL"/>
                         <segue destination="Jw4-sU-iuw" kind="show" identifier="fiveScore" id="gtN-bT-YFQ"/>
@@ -431,7 +451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686.5" y="547.5"/>
+            <point key="canvasLocation" x="750.5" y="515.5"/>
         </scene>
         <!--Use Table View Controller-->
         <scene sceneID="K8c-2R-0xg">

@@ -20,6 +20,18 @@
 @property (weak, nonatomic) IBOutlet UIButton *xierdunView;
 @property (weak, nonatomic) IBOutlet UIButton *xianggelilaView;
 
+@property (weak, nonatomic) IBOutlet UITextField *scoreLabel1;
+@property (weak, nonatomic) IBOutlet UITextField *scoreLabel2;
+@property (weak, nonatomic) IBOutlet UITextField *scoreLabel3;
+@property (weak, nonatomic) IBOutlet UITextField *scoreLabel4;
+@property (weak, nonatomic) IBOutlet UITextField *scoreLabel5;
+
+@property (weak, nonatomic) IBOutlet UITextField *compareLabel1;
+@property (weak, nonatomic) IBOutlet UITextField *compareLabel2;
+@property (weak, nonatomic) IBOutlet UITextField *compareLabel3;
+@property (weak, nonatomic) IBOutlet UITextField *compareLabel4;
+@property (weak, nonatomic) IBOutlet UITextField *compareLabel5;
+
 @property(nonatomic,assign,getter=isBig)BOOL big;
 
 @end
