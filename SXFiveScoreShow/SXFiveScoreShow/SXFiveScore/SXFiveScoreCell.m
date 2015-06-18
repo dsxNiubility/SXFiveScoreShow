@@ -23,7 +23,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
-    self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+//    self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
     self.open = NO;
 }
 
