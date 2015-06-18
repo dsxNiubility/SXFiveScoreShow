@@ -35,6 +35,12 @@
                             <constraint firstAttribute="height" constant="1" id="I2j-VB-Kzg"/>
                         </constraints>
                     </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4r-Ud-tPi">
+                        <rect key="frame" x="6" y="154" width="99" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 <constraints>
@@ -55,6 +61,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="compareScoreView" destination="J5y-bO-nG1" id="U9a-Tg-8he"/>
+                <outlet property="descriptionLabel" destination="H4r-Ud-tPi" id="eJ9-bW-wbO"/>
                 <outlet property="scoreImg" destination="Fb3-4b-AY5" id="1Qe-Vv-oX1"/>
                 <outlet property="scoreView" destination="i0Q-2A-39C" id="TQS-QC-2d9"/>
             </connections>

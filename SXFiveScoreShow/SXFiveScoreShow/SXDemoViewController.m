@@ -33,6 +33,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *compareLabel5;
 
 @property(nonatomic,assign,getter=isBig)BOOL big;
+@property(nonatomic,assign,getter=isBig2)BOOL big2;
 
 @end
 
@@ -43,6 +44,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
     self.big = YES;
+    self.big2 = YES;
+    
     self.curryView.layer.borderColor = [UIColor orangeColor].CGColor;
     self.curryView.layer.borderWidth = 3;
     self.curryView.layer.cornerRadius = 35;
@@ -99,7 +102,7 @@
     
     self.compareView2.subScore1 = 4.1;
     self.compareView2.subScore2 = 4.1;
-    self.compareView2.subScore3 = 4.9;
+    self.compareView2.subScore3 = 3.5;
     self.compareView2.subScore4 = 4.1;
     self.compareView2.subScore5 = 4.1;
     
@@ -110,19 +113,34 @@
     
     
 }
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
+- (IBAction)leftClick:(UIButton *)sender {
     if (self.big == NO) {
-        [UIView animateWithDuration:2.0 animations:^{
+        [UIView animateWithDuration:0.7 animations:^{
             self.animateView.transform = CGAffineTransformIdentity;
         }];
     }else{
-        [UIView animateWithDuration:2.0 animations:^{
+        [UIView animateWithDuration:0.7 animations:^{
             self.animateView.transform = CGAffineTransformMakeScale(0.3, 0.3);
         }];
     }
     self.big = !self.isBig;
+}
+- (IBAction)rightClick:(UIButton *)sender {
+    if (self.big2 == NO) {
+        [UIView animateWithDuration:0.7 animations:^{
+            self.compareView.transform = CGAffineTransformIdentity;
+        }];
+    }else{
+        [UIView animateWithDuration:0.7 animations:^{
+            self.compareView.transform = CGAffineTransformMakeScale(0.3, 0.3);
+        }];
+    }
+    self.big2 = !self.isBig2;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *scoreImg;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 @property(nonatomic,assign,getter=isOpen)BOOL open;
 
@@ -45,13 +46,16 @@
     self.scoreView.subScore2 = [scores[1] floatValue];
     self.scoreView.subScore3 = [scores[2] floatValue];
     self.scoreImg.image = [UIImage imageNamed:@"fb_three"];
+    self.descriptionLabel.text = @"取前面文本框的前三个值作图";
     if (scores.count > 3) {
         self.scoreView.subScore4 = [scores[3] floatValue];
         self.scoreImg.image = [UIImage imageNamed:@"fb_four"];
+        self.descriptionLabel.text = @"取前面文本框的前四个值作图";
     }
     if (scores.count > 4) {
         self.scoreView.subScore5 = [scores[4] floatValue];
         self.scoreImg.image = [UIImage imageNamed:@"fb_five"];
+        self.descriptionLabel.text = @"";
     }
     
 }
