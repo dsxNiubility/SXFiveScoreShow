@@ -12,8 +12,6 @@
 @interface SXFiveScoreCell ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *scoreImg;
-@property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
-@property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;
 @property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 
 @property(nonatomic,assign,getter=isOpen)BOOL open;
@@ -23,8 +21,8 @@
 
 - (void)awakeFromNib {
     // Initialization code
-//    self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
-    self.open = NO;
+    self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
+    self.open = YES;
 }
 
 + (instancetype)cell{
@@ -32,8 +30,6 @@
    return [[NSBundle mainBundle]loadNibNamed:@"SXFiveScoreCell" owner:nil options:nil][0];
     
 }
-
-
 
 - (void)setScores:(NSArray *)scores
 {

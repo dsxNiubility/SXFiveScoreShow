@@ -8,9 +8,13 @@
 
 #import "SXUseTableViewController.h"
 #import "SXFiveScoreCell.h"
+#import "SXAnimateVIew.h"
 
 @interface SXUseTableViewController ()
 
+@property(nonatomic,strong)SXAnimateVIew *animateView1;
+@property(nonatomic,strong)SXAnimateVIew *animateView2;
+@property(nonatomic,strong)SXAnimateVIew *animateView3;
 
 @end
 
@@ -25,6 +29,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [UIView animateWithDuration:1.5 animations:^{
+        self.animateView1.transform = CGAffineTransformIdentity;
+        self.animateView2.transform = CGAffineTransformIdentity;
+        self.animateView3.transform = CGAffineTransformIdentity;
+    }];
 }
 
 #pragma mark - Table view data source
@@ -45,6 +58,7 @@
         cell.scores = self.scores;
         cell.compareScores = self.compareScores;
         cell.labelNames = self.labelNames;
+        self.animateView1 = cell.scoreView;
         
         return cell;
     }else if (indexPath.row == 1){
@@ -58,6 +72,7 @@
         cell.scores = mScoreArray;
         cell.compareScores = mCompareArray;
         cell.labelNames = self.labelNames;
+        self.animateView2 = cell.scoreView;
         
         return cell;
         
@@ -74,6 +89,7 @@
         cell.scores = mScoreArray;
         cell.compareScores = mCompareArray;
         cell.labelNames = self.labelNames;
+        self.animateView3 = cell.scoreView;
         
         return cell;
     }
