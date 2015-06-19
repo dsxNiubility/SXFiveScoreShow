@@ -412,21 +412,69 @@
                                     <constraint firstItem="fc4-JO-PVf" firstAttribute="centerY" secondItem="B69-aU-vCq" secondAttribute="centerY" id="xfT-gm-J7r"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAj-k1-ZMC" userLabel="davis">
+                                <rect key="frame" x="323" y="615" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="GJV-go-jXd"/>
+                                    <constraint firstAttribute="width" constant="45" id="dkt-Jw-9rz"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="dsxniubility">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.1215686275" green="0.73333333329999995" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://github.com/dsxNiubility" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSH-gj-WM5">
+                                <rect key="frame" x="129" y="644" width="186" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="DoV-eJ-5Rr"/>
+                                    <constraint firstAttribute="width" constant="186" id="ys3-Py-05r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="董铂然" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAU-D5-UBB">
+                                <rect key="frame" x="270" y="628" width="45" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="U7c-jX-gLA"/>
+                                    <constraint firstAttribute="height" constant="18" id="duB-gc-LVc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4eC-Wv-Pl2" secondAttribute="trailing" id="3qN-8v-xKJ"/>
+                            <constraint firstAttribute="trailing" secondItem="KAj-k1-ZMC" secondAttribute="trailing" constant="7" id="49t-gl-dq4"/>
                             <constraint firstItem="4eC-Wv-Pl2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Q3-vh-pIh"/>
                             <constraint firstItem="4eC-Wv-Pl2" firstAttribute="top" secondItem="uyj-Q3-eBA" secondAttribute="bottom" id="7zg-uL-Io5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KAj-k1-ZMC" secondAttribute="bottom" constant="7" id="8E4-0V-U5t"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bE6-BL-rga" secondAttribute="bottom" constant="41" id="GbS-rt-rLw"/>
+                            <constraint firstAttribute="bottom" secondItem="tAU-D5-UBB" secondAttribute="bottom" constant="21" id="Ldr-bd-6n1"/>
                             <constraint firstAttribute="trailing" secondItem="NTa-Xl-8cs" secondAttribute="trailing" id="MoQ-mu-FAx"/>
                             <constraint firstAttribute="trailing" secondItem="uyj-Q3-eBA" secondAttribute="trailing" id="TVY-mP-fVI"/>
+                            <constraint firstItem="KAj-k1-ZMC" firstAttribute="leading" secondItem="tAU-D5-UBB" secondAttribute="trailing" constant="8" id="WYe-Hj-oZU"/>
                             <constraint firstAttribute="trailing" secondItem="bE6-BL-rga" secondAttribute="trailing" id="ZJl-Ie-wnM"/>
                             <constraint firstItem="NTa-Xl-8cs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="a1m-eY-fgd"/>
                             <constraint firstItem="NTa-Xl-8cs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j95-eZ-arI"/>
                             <constraint firstItem="uyj-Q3-eBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ljR-TP-GzU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zSH-gj-WM5" secondAttribute="bottom" constant="7" id="uVd-1V-2O1"/>
                             <constraint firstItem="bE6-BL-rga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vRw-zD-FXU"/>
                             <constraint firstItem="uyj-Q3-eBA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="wHN-XH-tFB"/>
+                            <constraint firstItem="KAj-k1-ZMC" firstAttribute="leading" secondItem="zSH-gj-WM5" secondAttribute="trailing" constant="8" id="xTM-wg-77P"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="demo效果展示" id="5by-MA-VKx">
@@ -514,6 +562,7 @@
     <resources>
         <image name="curry" width="538" height="540"/>
         <image name="davis" width="540" height="540"/>
+        <image name="dsxniubility" width="225" height="227"/>
         <image name="fb_five" width="200" height="200"/>
         <image name="xgll" width="406" height="400"/>
         <image name="xierdun" width="534" height="526"/>
