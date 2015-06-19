@@ -7,7 +7,6 @@
 //
 
 #import "SXFiveScoreCell.h"
-#import "SXAnimateVIew.h"
 
 @interface SXFiveScoreCell ()
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SXAnimateVIew.h"
 
 @class SXAnimateVIew;
 @interface SXFiveScoreCell : UITableViewCell
