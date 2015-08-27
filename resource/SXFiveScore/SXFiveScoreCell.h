@@ -18,6 +18,8 @@
 @property(nonatomic,strong)NSArray *labelNames;
 /** 各项用来做参照物（对比）的分数*/
 @property(nonatomic,strong)NSArray *compareScores;
+/** 是否采用满分100的计分制*/
+@property(nonatomic,assign,getter=isHundredScore)BOOL hundredScore;
 
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *compareScoreView;
 @property (weak, nonatomic) IBOutlet SXAnimateVIew *scoreView;

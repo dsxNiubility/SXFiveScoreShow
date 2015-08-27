@@ -22,6 +22,7 @@
     // Initialization code
     self.scoreView.transform = CGAffineTransformMakeScale(0.5, 0.5);
     self.open = YES;
+    self.hundredScore = NO;
 }
 
 + (instancetype)cell{
@@ -32,6 +33,16 @@
 
 - (void)setScores:(NSArray *)scores
 {
+    if (self.isHundredScore) {
+        NSMutableArray *temArray = [NSMutableArray array];
+        for (int i =0; i<scores.count; i++) {
+            NSNumber *sco = scores[i];
+            sco = @(sco.floatValue / 100 * 5);
+            [temArray addObject:sco];
+        }
+        scores = temArray;
+    }
+    
     _scores = scores;
     self.scoreView.showType = 1;
     self.scoreView.showColor = [UIColor colorWithRed:0.97 green:0.5 blue:0.09 alpha:0.8];
@@ -56,6 +67,16 @@
 }
 - (void)setCompareScores:(NSArray *)compareScores
 {
+    if (self.isHundredScore) {
+        NSMutableArray *temArray = [NSMutableArray array];
+        for (int i =0; i<compareScores.count; i++) {
+            NSNumber *sco = compareScores[i];
+            sco = @(sco.floatValue / 100 * 5);
+            [temArray addObject:sco];
+        }
+        compareScores = temArray;
+    }
+    
     _compareScores = compareScores;
     self.compareScoreView.showType = 2;
     self.compareScoreView.showColor = [UIColor colorWithRed:0.18 green:0.74 blue:0.65 alpha:0.8];
