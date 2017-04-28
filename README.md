@@ -8,16 +8,16 @@
 ![image](https://github.com/dsxNiubility/SXFiveScoreShow/raw/master/screenshots/five1.png)
 
 首页的demo示例程序，自己搭建了一个较为完整的示例，一般引用了本第三方库最终大致可以弄成这样。
-####两种样式
+#### 两种样式
 内部提供了可设置的属性，通过控制showType为1或是2可以使五边形显示成实色或边框。
 
-####三种维度
+#### 三种维度
 
 ![image](https://github.com/dsxNiubility/SXFiveScoreShow/raw/master/screenshots/five2.png)
 
 示例程序中是，第一个页面给五个维度的分数，和五个维度的对比分数都传了值，维度五就是用这传进来的值绘制的（传入的是一个数组）。然后维度三和维度四都是取了前面的三个值和四个值绘制出图。
 
-####使用方法：
+#### 使用方法：
 	1.将代码中resource文件夹中的SXFiveScore拖入项目中
 	2.引入主头文件#import "SXFiveScoreCell.h"
 	3.有两种使用方法，一种是用SXFiveScoreCell加在tableView中来展示，一种是直接将	SXAnimateView加在ViewController中显示。但暂时第二种方法封装的还不是很完善，暂时建议第一种。
