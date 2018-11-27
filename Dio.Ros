@@ -1,0 +1,167 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 5 oscarg933/DevOps-Journey
+forked from butuzov/DevOps-Journey
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+The Journey of a Thousand Miles Begins with One Step. https://smallbfinance.online
+ 33 commits
+ 1 branch
+ 0 releases
+ 1 contributor
+ Python 44.4%	 HCL 14.8%	 Dockerfile 11.5%	 Shell 11.5%	 Groovy 10.3%	 Ruby 5.8%	 Other 1.7%
+ Pull request   Compare This branch is 18 commits ahead of butuzov:master.
+@oscarg933
+oscarg933 Create Veneno.iot
+Latest commit 575d9f4  just now
+Type	Name	Latest commit message	Commit time
+001-Networking-DHCP	Netwokring - DHCP	4 months ago
+002-Networking-DNS	Netwokring - DNS	4 months ago
+003-Docker-Cron-n-Apache	Docker - Running `cron` and `httpd` simultaneity	4 months ago
+004-Docker-Compose	Docker-Compose - WebDev Stack	4 months ago
+005-Ansible-3-Tier-App	Ansible - 3TierApp	4 months ago
+006-Terraform-AWS	Terraform and AWS	4 months ago
+007-K8S-Hello-World	Kubernetes labs	4 months ago
+008-K8S-MySQL	Kubernetes labs	4 months ago
+009-K8S-Accessing-Pods-In-Cluster	Kubernetes labs	4 months ago
+010-Jenkins-Teraform-Ansible	Jenkins hands-on practice	4 months ago
+011-Ansible-3-Tier-App-v2	Ansible - 3 Tier App v2	4 months ago
+012-Python-Flask-MySQL	Flask app	3 months ago
+013-Python-Network-Checker	Checking Network Resources	3 months ago
+014-aws-cloudformation-lambda	Added Lambda Example	3 months ago
+015-serverless-apigateway-lambda	Serverless GatewayApi with Custom Domain and mapped Lambda	a month ago
+.confd	Add files via upload	4 minutes ago
+.confd-journal	Add files via upload	4 minutes ago
+.cvsignore	Add files via upload	32 minutes ago
+.gitattributes	Add files via upload	16 minutes ago
+.gitignore	Add files via upload	16 minutes ago
+.iot.zip	Add files via upload	28 minutes ago
+.nomedia	Add files via upload	4 minutes ago
+.php	Add files via upload	16 minutes ago
+.timestamp	Add files via upload	4 minutes ago
+.userReturn.iot	Update .userReturn.iot	15 minutes ago
+1543068898140s_kindlephoto-145633981.png	Add files via upload	28 minutes ago
+1543068921395s.png	Add files via upload	26 minutes ago
+68747470733a2f2f7261772e6769746875622e636f6d2f64656e636f6c642f7374617469632f6d61737465722f696d616765732f7375626c696d65657665726e6f74652f355f7665726966795f7375626c696d652e706e67 (967×661).pdf	Add files via upload	2 minutes ago
+All about Gazebo 9 with ROS | The Construct veneno.iot.pdf	Add files via upload	34 minutes ago
+Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & Veneno.IoT.pdf	Add files via upload	31 minutes ago
+Azure AD Connect - Microsoft Azure Dio.Ros.pdf	Add files via upload	31 minutes ago
+Azure Kubernetes Service (AKS) Documentation - Tutorials, API Reference | Microsoft Docs Dio.Ros.pdf	Add files via upload	31 minutes ago
+Choose a theme Dio.Ros.pdf	Add files via upload	25 minutes ago
+Defense Attorney - Tucson Criminal Attorneys - AZ Criminal Defense Group Oscar Gomez, Rodolfo Sotero Ayala, Alex DurazoSr, Alex Durazo Jr Veneno.IoT.pdf	Add files via upload	25 minutes ago
+Deploy resources with PowerShell and template | Microsoft Docs Dio.ros.pdf	Add files via upload	32 minutes ago
+Dio.Ros	Create Dio.Ros	41 minutes ago
+Gmail Dos.Ros.pdf	Add files via upload	36 minutes ago
+Isometric Wireless Mobile Devices Background With Connected Images.. Royalty Free Cliparts, Vectors, And Stock Illustration. Image 81005771. Dos.Ros.pdf	Add files via upload	34 minutes ago
+My Account | Wix.com dio.ros.pdf	Add files via upload	36 minutes ago
+Oscar Gomez Dio.Ros.pdf	Add files via upload	36 minutes ago
+Peerhash015 (2) - Shortcut.lnk	Add files via upload	18 minutes ago
+Readme.md	Add files via upload	16 minutes ago
+Screenshot_2018-11-10-18-48-44.png	Add files via upload	30 minutes ago
+Veneno.iot	Create Veneno.iot	just now
+__hs__backup_dao_storage	Add files via upload	2 minutes ago
+__init__.py	Add files via upload	8 minutes ago
+_version.py	Add files via upload	8 minutes ago
+beneficiary - Google Search Dio.Ros.pdf	Add files via upload	34 minutes ago
+binary github - Google Search dio.ros.pdf	Add files via upload	6 minutes ago
+class action lawsuit - Google Search dio.ros.pdf	Add files via upload	36 minutes ago
+devops github journey - Bing Dio.Ros.pdf	Add files via upload	39 minutes ago
+dna label prefix - Bing dio.ros.pdf	Add files via upload	34 minutes ago
+downloading_preview_0ecc45d76b2d5cd9ed11ffedb45279cbb90587b88d0ddf7be6c48dac63ae9945-2633.png	Add files via upload	26 minutes ago
+fire dl - Bing dio.ros.pdf	Add files via upload	36 minutes ago
+folder_app.db	Add files via upload	6 minutes ago
+folder_app.db-journal	Add files via upload	6 minutes ago
+foolscap a4 - Google Search dio.ros.pdf	Add files via upload	31 minutes ago
+getthisguap.com Dio.Ros.pdf	Add files via upload	36 minutes ago
+github photodoc extraction hub - Google Search dio.ros.pdf	Add files via upload	34 minutes ago
+iOS_Soft_Dev_Pack (D) - Shortcut (3).lnk	Add files via upload	18 minutes ago
+imap.py	Add files via upload	8 minutes ago
+legacy - Google Search dio.ros.pdf	Add files via upload	34 minutes ago
+photo editor devops github - Bing dio.ros.pdf	Add files via upload	36 minutes ago
+preview_placeholder.png	Add files via upload	26 minutes ago
+readme.md	Serverless GatewayApi with Custom Domain and mapped Lambda	a month ago
+realtime scan decode cache - Bing Dio.Ros.pdf	Add files via upload	34 minutes ago
+smallbfinance.online dio.ros.pdf	Add files via upload	36 minutes ago
+smtp.py	Add files via upload	8 minutes ago
+ Readme.md
+SublimeEvernote
+Sublime Text 2 plugin for Evernote
+
+Install
+Through Package Control
+
+Command Palette > Package Control: Install Package > SublimeEvernote
+
+or
+
+Command Palette > Package Control: add Repository && input 'http://github.com/jamiesun/SublimeEvernote
+
+Command Palette > Package Control: Install Package > SublimeEvernote
+
+or clone this repository in
+
+Windows: %APPDATA%/Roaming/Sublime Text 2/Packages/
+OSX: ~/Library/Application Support/Sublime Text 2/Packages/
+Linux: ~/.Sublime Text 2/Packages/
+Portable Installation: Sublime Text 2/Data/
+Usage
+Command Palette > Send to evernote
+
+Context menu > Send to Evernote
+
+Context menu > Evernote settings
+
+Markdown Support
+Write notes in Markdown and they will be processed when they are sent to Evernote.
+
+This: this
+
+Turns into this: this
+
+Authenticating with Evernote
+In order to send notes you need to authenticate and allow the plugin permissions via Evernote's oauth. This is a bit of a manual process now as there are no callbacks to Sublime to handle this process automatically. Here are a collection of screenshots to step you through the process.
+
+Step 1 - Sublime text2 open your browser,you need login:
+login
+
+Step 2 - Authorize plugin with Evernote:
+authorize
+
+Step 3 - Copy oauth verifier
+redirect verifier
+
+Step 4 - Verify token on Sublime
+redirect
+
+Step 5 - Rejoice!
+redirect
+
+Metadata
+Use metadata block to specify title and tags.
+
+---
+title: My Note
+tags: tag1,tag2
+---
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
